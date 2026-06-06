@@ -5,7 +5,8 @@ Usage:
     python homework_demo.py
     python homework_demo.py --name 张三 --password 123456 --school-name 某某学校 --school-id 12345
     python homework_demo.py --list-type finished --all-pages
-    python homework_demo.py --list-type study-center --homework-only
+    python homework_demo.py --list-type study-center --task-type exam
+    python homework_demo.py --list-type study-center-history
 """
 
 from __future__ import annotations
@@ -21,7 +22,7 @@ except ImportError:  # pragma: no cover - only used when dependency is missing
     print("缺少 requests 依赖，请先执行：python -m pip install requests", file=sys.stderr)
     raise
 
-from demo import fill_interactive_args, login_by_real_name
+from demo import fill_interactive_args, login_by_real_name, save_login_cache
 
 
 BASE_URL = "https://mapi.ekwing.com"
@@ -29,6 +30,9 @@ HOMEWORK_LIST_PATH = "/student/Hw/getList"
 BASIC_HOMEWORK_LIST_PATH = "/student/Hw/getBasicList"
 STUDY_CENTER_PATH = "/student/Hw/getnewmainlist"
 BASIC_STUDY_CENTER_PATH = "/student/Hw/getbasicnewmainlist"
+EXAM_HISTORY_PATH = "/student/exam/getstuexamlist"
+BASIC_EXAM_HISTORY_PATH = "/student/exam/getstubasicexamlist"
+STUDY_CENTER_TASK_TYPES = ("exam", "hw", "train", "all")
 
 
 def common_params(args: argparse.Namespace, uid: str, token: str) -> dict[str, str]:
@@ -79,6 +83,10 @@ def homework_list_path(args: argparse.Namespace) -> str:
 
 def study_center_path(args: argparse.Namespace) -> str:
     return BASIC_STUDY_CENTER_PATH if args.basic else STUDY_CENTER_PATH
+
+
+def exam_history_path(args: argparse.Namespace) -> str:
+    return BASIC_EXAM_HISTORY_PATH if args.basic else EXAM_HISTORY_PATH
 
 
 def get_homework_page(
@@ -147,9 +155,87 @@ def get_study_center_tasks(uid: str, token: str, args: argparse.Namespace) -> li
         raise RuntimeError(f"学习中心返回 data 不是列表：{json.dumps(body, ensure_ascii=False)}")
 
     items = [item for item in data if isinstance(item, dict)]
-    if args.homework_only:
-        items = [item for item in items if item.get("type") == "hw"]
+    task_type = getattr(args, "task_type", "exam") or "exam"
+    if getattr(args, "homework_only", False):
+        task_type = "hw"
+    if task_type != "all":
+        items = [item for item in items if item.get("type") == task_type]
     return items
+
+
+def get_exam_history_page(
+    uid: str,
+    token: str,
+    args: argparse.Namespace,
+    page: int,
+    archive_id: str | None = None,
+) -> dict[str, Any]:
+    payload = common_params(args, uid, token)
+    payload.update(
+        {
+            "type": "his",
+            "page": str(page),
+        }
+    )
+    if archive_id:
+        payload["archiveId"] = archive_id
+
+    body = post_form(exam_history_path(args), payload, args.timeout)
+    data = body.get("data")
+    if isinstance(data, list):
+        return {"list": data, "page": {"currentPage": page, "totalPage": page}}
+    if isinstance(data, dict):
+        return normalize_exam_history_data(data, page)
+    raise RuntimeError(f"历史考试返回缺少 data 对象：{json.dumps(body, ensure_ascii=False)}")
+
+
+def normalize_exam_history_data(data: dict[str, Any], page: int) -> dict[str, Any]:
+    items = data.get("list")
+    if not isinstance(items, list):
+        for value in data.values():
+            if isinstance(value, list):
+                items = value
+                break
+    items = items if isinstance(items, list) else []
+
+    current = safe_int(data.get("page") or data.get("currentPage"), page)
+    total = safe_int(data.get("total_page") or data.get("totalPage"), current)
+    return {
+        "list": items,
+        "page": {
+            **{key: value for key, value in data.items() if key != "list"},
+            "currentPage": current,
+            "totalPage": total,
+        },
+    }
+
+
+def get_all_exam_history(uid: str, token: str, args: argparse.Namespace) -> dict[str, Any]:
+    first = get_exam_history_page(uid, token, args, page=args.page)
+    items = list(first.get("list") or [])
+    page_info = first.get("page") or {}
+    current = safe_int(page_info.get("currentPage"), args.page)
+    total = safe_int(page_info.get("totalPage"), current)
+
+    while current < total:
+        archive_id = last_archive_id(items)
+        current += 1
+        page_data = get_exam_history_page(uid, token, args, page=current, archive_id=archive_id)
+        next_items = page_data.get("list") or []
+        items.extend(next_items)
+        page_info = page_data.get("page") or page_info
+        total = safe_int(page_info.get("totalPage"), total)
+        if not next_items:
+            break
+
+    return {
+        "list": items,
+        "page": {
+            **page_info,
+            "currentPage": current,
+            "loadedCount": len(items),
+        },
+    }
 
 
 def safe_int(value: Any, default: int) -> int:
@@ -196,6 +282,23 @@ def summarize_task_item(item: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def summarize_exam_history_item(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "id": item.get("id"),
+        "type": item.get("type", "exam"),
+        "title": item.get("title") or item.get("self_title"),
+        "status": item.get("status") or item.get("self_status"),
+        "score": item.get("score") or item.get("self_score"),
+        "start_time": item.get("start_time") or item.get("self_start_time"),
+        "end_time": item.get("end_time") or item.get("self_end_time"),
+        "archiveId": item.get("archiveId"),
+        "self_id": item.get("self_id"),
+        "last_model_id": item.get("last_model_id"),
+        "mode_type": item.get("mode_type"),
+        "url": item.get("url") or item.get("start_url"),
+    }
+
+
 def print_result(result: Any, args: argparse.Namespace) -> None:
     if args.raw:
         print(json.dumps(result, ensure_ascii=False, indent=2))
@@ -204,9 +307,11 @@ def print_result(result: Any, args: argparse.Namespace) -> None:
     if isinstance(result, dict):
         items = [item for item in result.get("list") or [] if isinstance(item, dict)]
         page = result.get("page") or {}
-        print(f"共获取 {len(items)} 条作业")
+        item_name = "历史学习中心考试" if args.list_type == "study-center-history" else "作业"
+        summarizer = summarize_exam_history_item if args.list_type == "study-center-history" else summarize_homework_item
+        print(f"共获取 {len(items)} 条{item_name}")
         print(json.dumps({"page": page}, ensure_ascii=False, indent=2))
-        print(json.dumps([summarize_homework_item(item) for item in items], ensure_ascii=False, indent=2))
+        print(json.dumps([summarizer(item) for item in items], ensure_ascii=False, indent=2))
         return
 
     if isinstance(result, list):
@@ -266,7 +371,8 @@ def fill_interactive_homework_args(args: argparse.Namespace) -> argparse.Namespa
             [
                 ("current", "当前/未完成作业"),
                 ("finished", "历史/已完成作业"),
-                ("study-center", "学习中心混合任务"),
+                ("study-center", "当前学习中心考试任务"),
+                ("study-center-history", "历史学习中心考试任务"),
             ],
         )
 
@@ -276,11 +382,12 @@ def fill_interactive_homework_args(args: argparse.Namespace) -> argparse.Namespa
     if args.raw is None:
         args.raw = prompt_yes_no("是否输出接口原始 data", default=False)
 
-    if args.list_type == "study-center":
-        if args.homework_only is None:
-            args.homework_only = prompt_yes_no("是否只保留 type=hw 的作业项", default=True)
+    if args.list_type in {"study-center", "study-center-history"}:
+        args.task_type = getattr(args, "task_type", "exam") or "exam"
+        args.homework_only = False if args.homework_only is None else args.homework_only
         args.page = 1 if args.page is None else args.page
-        args.all_pages = False
+        if args.all_pages is None:
+            args.all_pages = False
         return args
 
     if args.page is None:
@@ -302,16 +409,16 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--list-type",
-        choices=("current", "finished", "study-center"),
+        choices=("current", "finished", "study-center", "study-center-history"),
         default=None,
-        help="列表类型：current 当前作业，finished 已完成作业，study-center 学习中心混合任务",
+        help="列表类型：study-center-history 为历史学习中心考试任务；不传则交互选择",
     )
     parser.add_argument("--page", type=int, default=None, help="作业分页页码；不传则交互输入")
     parser.add_argument(
         "--all-pages",
         action="store_true",
         default=None,
-        help="拉取全部分页；仅 current/finished 生效；不传则交互选择",
+        help="拉取全部分页；current/finished/study-center-history 生效；不传则交互选择",
     )
     parser.add_argument(
         "--basic",
@@ -323,7 +430,13 @@ def parse_args() -> argparse.Namespace:
         "--homework-only",
         action="store_true",
         default=None,
-        help="study-center 只保留 type=hw 的作业项；不传则交互选择",
+        help="兼容旧参数：study-center 只保留 type=hw 的作业项；默认改为只保留 type=exam",
+    )
+    parser.add_argument(
+        "--task-type",
+        choices=STUDY_CENTER_TASK_TYPES,
+        default="exam",
+        help="study-center 保留的任务类型，默认 exam；可选 hw/train/all 用于手动排查",
     )
     parser.add_argument(
         "--raw",
@@ -345,11 +458,14 @@ def main() -> int:
     args = fill_interactive_homework_args(fill_interactive_args(parse_args()))
     try:
         login_result = login_by_real_name(args)
+        save_login_cache(args)
         uid = str(login_result["uid"])
         token = str(login_result["token"])
 
         if args.list_type == "study-center":
             result = get_study_center_tasks(uid, token, args)
+        elif args.list_type == "study-center-history":
+            result = get_all_exam_history(uid, token, args) if args.all_pages else get_exam_history_page(uid, token, args, page=args.page)
         elif args.all_pages:
             result = get_all_homework(uid, token, args)
         else:

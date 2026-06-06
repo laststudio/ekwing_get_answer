@@ -13,6 +13,7 @@ import getpass
 import hashlib
 import json
 import sys
+from pathlib import Path
 from typing import Any
 
 try:
@@ -25,6 +26,8 @@ except ImportError:  # pragma: no cover - only used when dependency is missing
 BASE_URL = "https://mapi.ekwing.com"
 LOGIN_SCHOOL_PATH = "/student/User/loginschool"
 LOGIN_ACCOUNT_PATH = "/student/User/login"
+LOGIN_CACHE_PATH = Path(__file__).with_name(".ekwing_login_cache.json")
+LOGIN_CACHE_KEYS = ("name", "school_name", "school_id", "choose_index")
 
 
 def md5_hex(text: str) -> str:
@@ -167,6 +170,28 @@ def login_by_real_name(args: argparse.Namespace) -> dict[str, Any]:
     raise RuntimeError(error_message(body))
 
 
+def load_login_cache() -> dict[str, Any]:
+    try:
+        data = json.loads(LOGIN_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def save_login_cache(args: argparse.Namespace) -> None:
+    data = {
+        key: getattr(args, key, None)
+        for key in LOGIN_CACHE_KEYS
+        if getattr(args, key, None) not in (None, "")
+    }
+    if not data:
+        return
+    LOGIN_CACHE_PATH.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="翼课学生 5.2.7 实名登录获取 token demo")
     parser.add_argument("--name", help="学生姓名，对应 nicename；不传则交互式输入")
@@ -193,6 +218,11 @@ def prompt_required(label: str) -> str:
 
 
 def fill_interactive_args(args: argparse.Namespace) -> argparse.Namespace:
+    cache = load_login_cache()
+    for key in LOGIN_CACHE_KEYS:
+        if getattr(args, key, None) in (None, "") and cache.get(key) not in (None, ""):
+            setattr(args, key, cache[key])
+
     if not args.name:
         args.name = prompt_required("姓名")
     if not args.school_name:
@@ -206,6 +236,7 @@ def main() -> int:
     args = fill_interactive_args(parse_args())
     try:
         result = login_by_real_name(args)
+        save_login_cache(args)
     except Exception as exc:
         print(f"登录失败：{exc}", file=sys.stderr)
         return 1

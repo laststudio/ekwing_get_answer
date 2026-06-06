@@ -1,0 +1,790 @@
+{
+  "count": 25,
+  "truncated": false,
+  "items": [
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_list[0]",
+      "id": null,
+      "type": null,
+      "question": "模仿朗读（共1题，满分6分）",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 6,
+        "user_score": 0
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "desc",
+        "model_list",
+        "all_object",
+        "user_score",
+        "score",
+        "has_score",
+        "user_score_level",
+        "ques_num"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_list[1]",
+      "id": null,
+      "type": null,
+      "question": "信息获取（共两节，满分15分）",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 15,
+        "user_score": 0
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "desc",
+        "model_list",
+        "all_object",
+        "user_score",
+        "score",
+        "has_score",
+        "user_score_level",
+        "ques_num"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_list[2]",
+      "id": null,
+      "type": null,
+      "question": "信息转述及询问（共两节，满分9分）",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 9,
+        "user_score": 0
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "desc",
+        "model_list",
+        "all_object",
+        "user_score",
+        "score",
+        "has_score",
+        "user_score_level",
+        "ques_num"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].self_info",
+      "id": 8820442,
+      "type": null,
+      "question": "905-906非VIP第11周九上M 2听说题2",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "total_score": 30,
+        "user_score": 0
+      },
+      "analysis": {},
+      "keys": [
+        "user_score",
+        "user_score_level",
+        "self_id",
+        "title",
+        "has_subject",
+        "mode_type",
+        "is_again_answer",
+        "end_time",
+        "start_time",
+        "use_time",
+        "subject_status",
+        "_show_answer",
+        "is_all_subject",
+        "draft_id",
+        "has_hb_model",
+        "practice_scene",
+        "score_display_type",
+        "show_ques_score",
+        "special_exam",
+        "total_score",
+        "submit_time"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].exam_third[0].model_list[0]",
+      "id": "1277626",
+      "type": "1",
+      "question": null,
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": "6"
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "model_type",
+        "name_id",
+        "model_id",
+        "score",
+        "time_info",
+        "_paper_id",
+        "vip_type",
+        "is_subject"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].exam_third[1].model_list[0]",
+      "id": "1277627",
+      "type": "7",
+      "question": "第一节 听选信息（共6小题；每小题1.5分，满分9分）",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": "9"
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "model_type",
+        "name_id",
+        "model_id",
+        "score",
+        "time_info",
+        "_paper_id",
+        "vip_type",
+        "is_subject"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].exam_third[1].model_list[1]",
+      "id": "1277628",
+      "type": "8",
+      "question": "第二节 问题回答（共4小题；每小题1.5分，满分6分）",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": "6"
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "model_type",
+        "name_id",
+        "model_id",
+        "score",
+        "time_info",
+        "_paper_id",
+        "vip_type",
+        "is_subject"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].exam_third[2].model_list[0]",
+      "id": "1277629",
+      "type": "6",
+      "question": "第一节 信息转述（共1题，满分6分）",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": "6"
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "model_type",
+        "name_id",
+        "model_id",
+        "score",
+        "time_info",
+        "_paper_id",
+        "vip_type",
+        "is_subject"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].exam_third[2].model_list[1]",
+      "id": "1277630",
+      "type": "9",
+      "question": "第二节 询问信息（共2小题；每小题1.5分，满分3分）",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": "3"
+      },
+      "analysis": {},
+      "keys": [
+        "title",
+        "model_type",
+        "name_id",
+        "model_id",
+        "score",
+        "time_info",
+        "_paper_id",
+        "vip_type",
+        "is_subject"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277627",
+      "id": "1277627",
+      "type": "7",
+      "question": "[{\"text\": \"W: Frank, tomorrow is Mother's Day.\\nM: What should we buy for our mom as a gift?\\nW: What about flowers?\\nM: I don't think they're a good gift.\\nW: How about a watch?\\nM: Pretty good! Let's go shopping this afternoon. And I thin...(truncated)",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": "9",
+        "user_score": 0
+      },
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_type",
+        "first_type",
+        "level",
+        "score",
+        "prepare_time",
+        "answer_time",
+        "play_num",
+        "art_play_num",
+        "display_question",
+        "name",
+        "is_answer",
+        "chap_info",
+        "title_ques_map",
+        "title",
+        "ques_list",
+        "ques_index",
+        "ques_begin",
+        "ques_end",
+        "had_ans",
+        "is_subject",
+        "user_score",
+        "user_score_level",
+        "_paper_id",
+        "model_type_name",
+        "name_id",
+        "answer_pic",
+        "is_correct",
+        "is_able"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[0]",
+      "id": "4202933",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"A watch.\", \"A watch.\"], [\"They'll buy a watch.\", \"They'll buy a watch.\"], [\"They will buy a watch.\", \"They will buy a watch.\"], [\"They're going to buy a watch.\", \"They're going to buy a watch.\"], [\"They are going to buy a watch.\", \"They ...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[1]",
+      "id": "4202934",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": [
+          [
+            "A Chinese restaurant.",
+            "A Chinese restaurant."
+          ],
+          [
+            "They've chosen a Chinese restaurant.",
+            "They've chosen a Chinese restaurant."
+          ],
+          [
+            "They have chosen a Chinese restaurant.",
+            "They have chosen a Chinese restaurant."
+          ]
+        ]
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[2]",
+      "id": "4202935",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"Her father.\", \"Her father.\"], [\"Her dad.\", \"Her dad.\"], [\"Her daddy.\", \"Her daddy.\"], [\"She wants to buy it for her father.\", \"She wants to buy it for her father.\"], [\"She wants to buy her dad a gift.\", \"She wants to buy her dad a gift.\"...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[3]",
+      "id": "4202936",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"Twenty-eight dollars.\", \"Twenty-eight dollars.\"], [\"It's twenty-eight dollars.\", \"It's twenty-eight dollars.\"], [\"It is twenty-eight dollars.\", \"It is twenty-eight dollars.\"], [\"The wallet is twenty-eight dollars.\", \"The wallet is twenty...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[4]",
+      "id": "4202937",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"Next Tuesday afternoon.\", \"Next Tuesday afternoon.\"], [\"He's going to have it next Tuesday afternoon.\", \"He's going to have it next Tuesday afternoon.\"], [\"He is going to have a party next Tuesday afternoon.\", \"He is going to have a part...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[5]",
+      "id": "4202938",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"America.\", \"America.\"], [\"The US.\", \"The US.\"], [\"The USA.\", \"The USA.\"], [\"The United States.\", \"The United States.\"], [\"The United States of America.\", \"The United States of America.\"], [\"He may be from America.\", \"He may be from Ameri...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[0]",
+      "id": "4202939",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"The National Day.\", \"The National Day.\"], [\"It was the National Day.\", \"It was the National Day.\"], [\"Last Sunday was the National Day.\", \"Last Sunday was the National Day.\"], [\"It was the National Day last Sunday.\", \"It was the National...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "answer_tip",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[1]",
+      "id": "4202940",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": [
+          [
+            "Three.",
+            "Three."
+          ],
+          [
+            "Three people.",
+            "Three people."
+          ],
+          [
+            "Three people went there.",
+            "Three people went there."
+          ],
+          [
+            "Three people went to Tian'anmen Square.",
+            "Three people went to Tian'anmen Square."
+          ]
+        ]
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "answer_tip",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[2]",
+      "id": "4202941",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"She went shopping.\", \"She went shopping.\"], [\"She shopped.\", \"She shopped.\"], [\"She did some shopping.\", \"She did some shopping.\"], [\"Her aunt went shopping.\", \"Her aunt went shopping.\"], [\"Her aunt shopped.\", \"Her aunt shopped.\"], [\"Her...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "answer_tip",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[3]",
+      "id": "4202942",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"To a bookstore.\", \"To a bookstore.\"], [\"To a bookshop.\", \"To a bookshop.\"], [\"He went to a bookstore.\", \"He went to a bookstore.\"], [\"He went to a bookshop.\", \"He went to a bookshop.\"], [\"Her cousin went to a bookstore.\", \"Her cousin wen...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "answer_tip",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277629",
+      "id": "1277629",
+      "type": "6",
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"Tim's parents took Tim to see his grandmother on the Double Ninth Festival. They went by car. They arrived at her home at about half past eight in the morning. They climbed a mountain together.\", \"Tim's parents took Tim to see his grandm...(truncated)"
+      },
+      "student_answer": {},
+      "score": {
+        "score": "6",
+        "user_score": 0
+      },
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_type",
+        "first_type",
+        "level",
+        "score",
+        "prepare_time",
+        "answer_time",
+        "scene_tip",
+        "art_play_num",
+        "name",
+        "chap_info",
+        "desc",
+        "desc_pic",
+        "title_text",
+        "title_audio",
+        "answer_tip",
+        "answer",
+        "ques_index",
+        "ques_begin",
+        "ques_end",
+        "had_ans",
+        "user_ans",
+        "is_subject",
+        "user_score",
+        "user_score_level",
+        "_paper_id",
+        "model_type_name",
+        "name_id",
+        "answer_pic",
+        "is_correct",
+        "is_able"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277630.ques_list[0]",
+      "id": "4202943",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"What did you eat for lunch on the Double Ninth Festival?\", \"What did you eat for lunch on the Double Ninth Festival?\"], [\"What did you have for lunch on the Double Ninth Festival?\", \"What did you have for lunch on the Double Ninth Festiv...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].model_ans_list.1277630.ques_list[1]",
+      "id": "4202944",
+      "type": null,
+      "question": null,
+      "standard_answer": {
+        "answer": "[[\"What time did you get back home?\", \"What time did you get back home?\"], [\"What time did you go back home?\", \"What time did you go back home?\"], [\"What time did you return home?\", \"What time did you return home?\"], [\"When did you get back...(truncated)"
+      },
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "id",
+        "model_id",
+        "title_text",
+        "title_pic",
+        "title_audio",
+        "ques_type",
+        "is_subjective",
+        "ext",
+        "answer",
+        "analyze",
+        "is_del",
+        "is_subject",
+        "bt_id",
+        "keywords",
+        "user_ans"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].exam_content[0].model_list[0]",
+      "id": null,
+      "type": "1",
+      "question": null,
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {},
+      "analysis": {},
+      "keys": [
+        "title",
+        "desc",
+        "type",
+        "model_list"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].self",
+      "id": "8820442",
+      "type": "0",
+      "question": "905-906非VIP第11周九上M 2听说题2",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": "30.00"
+      },
+      "analysis": {},
+      "keys": [
+        "id",
+        "uid",
+        "paper_id",
+        "type",
+        "title",
+        "create_time",
+        "start_time",
+        "end_time",
+        "status",
+        "status_time",
+        "cancel_reason",
+        "target_json",
+        "score",
+        "content_id",
+        "mode_type",
+        "show_answer",
+        "takeup_time",
+        "takeup_type",
+        "finish_time",
+        "work_id",
+        "has_subject",
+        "offline_status",
+        "is_in_term",
+        "review_count",
+        "paper_title",
+        "is_vip_exam",
+        "client_type",
+        "ext",
+        "subject",
+        "content",
+        "practice_scene",
+        "is_all_subject"
+      ]
+    }
+  ]
+}

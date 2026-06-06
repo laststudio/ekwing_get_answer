@@ -33,6 +33,7 @@ token      = 登录返回 token
 | 用途 | 普通账号接口 | Basic 账号接口 | 返回类型 |
 | --- | --- | --- | --- |
 | 学习中心混合列表 | `/student/Hw/getnewmainlist` | `/student/Hw/getbasicnewmainlist` | `List<StudyCenterListEntity>` |
+| 历史学习中心考试列表 | `/student/exam/getstuexamlist` | `/student/exam/getstubasicexamlist` | `KSDataEntity` |
 | 作业分页列表 | `/student/Hw/getList` | `/student/Hw/getBasicList` | `HwEntity` |
 | 学习首页模块 | `/student/Hw/getmain` | 未见 Basic 分支 | `List<StudyTopModeEntity>` |
 
@@ -41,7 +42,8 @@ token      = 登录返回 token
 ```text
 GET 当前作业分页列表：POST /student/Hw/getList，method=new，page=1，sortMethod=desc，sortField=publish_times
 GET 历史/已完成作业：POST /student/Hw/getList，method=finish，page=1，sortMethod=desc，sortField=finish_times
-GET 首页混合任务：POST /student/Hw/getnewmainlist，只带公共参数和登录态
+GET 考试任务：POST /student/Hw/getnewmainlist，只带公共参数和登录态，客户端侧保留 type=exam
+GET 历史学习中心考试：POST /student/exam/getstuexamlist，type=his，page=1
 ```
 
 说明：`method=new` 是作业页调用方实际传入的当前作业值；`method=finish` 是历史分支在 DataManager 内强制写入的值。
@@ -125,13 +127,55 @@ exam  = 考试
 train = 训练
 ```
 
-如果只想要作业，demo 可过滤：
+如果只想要考试，demo 可过滤：
 
 ```python
-homework_items = [item for item in items if item.get("type") == "hw"]
+exam_items = [item for item in items if item.get("type") == "exam"]
 ```
 
 ## 4. 作业分页列表
+
+### 历史学习中心考试
+
+历史学习中心考试不是 `/student/Hw/getList` 的 `method=finish` 分支，而是考试专用接口：
+
+```http
+POST https://mapi.ekwing.com/student/exam/getstuexamlist
+```
+
+Basic 账号：
+
+```http
+POST https://mapi.ekwing.com/student/exam/getstubasicexamlist
+```
+
+请求参数：
+
+```text
+type = his
+page = 1
+```
+
+返回结构对应 `KSDataEntity`，常见形态：
+
+```json
+{
+  "status": 0,
+  "data": {
+    "list": [],
+    "page": 1,
+    "total_page": 1
+  }
+}
+```
+
+demo 中可直接使用：
+
+```bash
+python homework_demo.py --list-type study-center-history
+```
+
+登录姓名、学校名、学校 ID、同名账号选择序号会保存到项目本地 `.ekwing_login_cache.json`；不会保存密码。
 
 ### 接口
 
@@ -328,9 +372,12 @@ def get_finished_homework(uid: str, token: str, page: int = 1, archive_id: str |
     return post_form("/student/Hw/getList", payload)["data"]
 
 
-def get_study_center_tasks(uid: str, token: str) -> list[dict]:
+def get_study_center_tasks(uid: str, token: str, task_type: str = "exam") -> list[dict]:
     payload = common_params(uid, token)
-    return post_form("/student/Hw/getnewmainlist", payload)["data"]
+    items = post_form("/student/Hw/getnewmainlist", payload)["data"]
+    if task_type == "all":
+        return items
+    return [item for item in items if item.get("type") == task_type]
 
 
 def get_all_current_homework(uid: str, token: str) -> list[dict]:
@@ -354,7 +401,7 @@ def get_all_current_homework(uid: str, token: str) -> list[dict]:
 if __name__ == "__main__":
     UID = "替换为登录返回 uid"
     TOKEN = "替换为登录返回 token"
-    data = get_current_homework(UID, TOKEN)
+    data = get_study_center_tasks(UID, TOKEN, task_type="exam")
     print(json.dumps(data, ensure_ascii=False, indent=2))
 ```
 
