@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Study-center exam answer parsing demo for Ekwing Student 5.2.7.
+"""Release entry for Ekwing Student 5.2.7 study-center exam answer export.
 
 Usage:
-    python exam_answer_demo.py
-    python exam_answer_demo.py --list-type current --exam-index 0 --save-dir out_exam
-    python exam_answer_demo.py --list-type study-center-history --exam-index 0 --save-dir out_exam
-    python exam_answer_demo.py --self-id 8820442 --raw-response
+    python release.py
+    python release.py --list-type current --exam-index 0 --save-dir out_exam
+    python release.py --list-type study-center-history --exam-index 0 --save-dir out_exam
+    python release.py --self-id 8820442 --raw-response
 """
 
 from __future__ import annotations
@@ -21,6 +21,8 @@ from urllib.parse import parse_qsl, parse_qs, urlsplit
 
 import requests
 from demo import fill_interactive_args, login_by_real_name, save_login_cache
+from exam_answer_json_parse_demo import build_answers_only as build_json_answers_only
+from exam_answer_json_parse_demo import parse_exam_answers as parse_json_exam_answers
 from homework_demo import (
     BASE_URL,
     STUDY_CENTER_TASK_TYPES,
@@ -995,6 +997,7 @@ def output_result(result: dict[str, Any], args: argparse.Namespace) -> None:
             (save_dir / "score_info.html").write_text(raw_text, encoding="utf-8")
         write_json(save_dir / "structured_report.json", result["structured_report"])
         write_json(save_dir / "answers.json", result["answers"])
+        write_json(save_dir / "answers_by_question.json", result["answers_by_question"])
         write_json(save_dir / "answers_only.json", result["answers_only"])
         write_json(save_dir / "parsed_answers.json", result["parsed_answers"])
         write_json(save_dir / "result.json", result)
@@ -1016,6 +1019,7 @@ def output_result(result: dict[str, Any], args: argparse.Namespace) -> None:
         "structured_report": structured_summary,
         "answers_count": len(result["answers"]),
         "answers_preview": result["answers"][: args.max_summary_questions],
+        "answers_by_question_preview": result["answers_by_question"][: args.max_summary_questions],
     }
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
@@ -1030,7 +1034,7 @@ def summarize_structured_report(report: dict[str, Any], max_questions: int) -> d
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="翼课学生 5.2.7 学习中心考试答案解析 demo")
+    parser = argparse.ArgumentParser(description="翼课学生 5.2.7 学习中心考试答案导出 release")
     parser.add_argument("--name", help="学生姓名，对应 nicename；不传则交互式输入")
     parser.add_argument("--school-name", help="学校名称，对应 schoolName；不传则交互式输入")
     parser.add_argument("--school-id", help="学校 ID，对应 schoolId；不传则交互式输入")
@@ -1126,7 +1130,10 @@ def main() -> int:
         )
         answers_only = structured_report.get("answers_only")
         answers_only = answers_only if isinstance(answers_only, list) else []
-        answers = build_answer_values(answers_only)
+        answers_by_question = parse_json_exam_answers({"model_score_infos": repair_mojibake(model_score_infos)})
+        answers = build_json_answers_only(answers_by_question)
+        if not answers:
+            answers = build_answer_values(answers_only)
         result = {
             "exam": exam,
             "self_id": self_id,
@@ -1136,6 +1143,7 @@ def main() -> int:
             "model_score_infos": model_score_infos,
             "structured_report": structured_report,
             "answers": answers,
+            "answers_by_question": answers_by_question,
             "answers_only": answers_only,
             "parsed_answers": parsed_answers,
         }
