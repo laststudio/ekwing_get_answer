@@ -1,55 +1,55 @@
 {
   "found": true,
   "self_info": {
-    "self_id": 8869341,
-    "title": "六校联考-吉利中学九年级听说试题",
-    "user_score": "26.96",
+    "self_id": 8820464,
+    "title": "911-912第11周九上M 8听说题2",
+    "user_score": "28.97",
     "total_score": 30,
     "user_score_level": "A",
-    "start_time": "1764887400",
-    "end_time": "1764904281",
-    "submit_time": "1764904281",
+    "start_time": "1762914709",
+    "end_time": "1763126630",
+    "submit_time": "1763126630",
     "use_time": {
       "day": 0,
       "hour": 0,
-      "min": 5,
-      "second": 0
+      "min": 6,
+      "second": 36
     }
   },
   "answer_info": {
-    "id": "406629819",
-    "score": "26.96",
+    "id": "404060354",
+    "score": "28.97",
     "status": "1",
-    "use_time": "0",
-    "content_id": "477475920"
+    "use_time": "396",
+    "content_id": "474276706"
   },
   "sections": [
     {
       "index": 1,
-      "title": "模仿朗读（共1题，满分6分）",
+      "title": "第一部分 朗读（总分10分）",
       "desc": "",
-      "score": 6,
-      "user_score": 5.32,
+      "score": 10,
+      "user_score": 9.35,
       "user_score_level": "A",
-      "ques_num": 1,
+      "ques_num": 3,
       "has_score": true
     },
     {
       "index": 2,
-      "title": "信息获取（共两节，满分15分）",
+      "title": "第二部分 获取信息（共两节，满分10分）",
       "desc": "",
-      "score": 15,
-      "user_score": 13.23,
+      "score": 10,
+      "user_score": 9.7,
       "user_score_level": "A",
       "ques_num": 2,
       "has_score": true
     },
     {
       "index": 3,
-      "title": "信息转述及询问（共两节，满分9分）",
+      "title": "第三部分 信息转述及询问（共两节，满分10分）",
       "desc": "",
-      "score": 9,
-      "user_score": 8.41,
+      "score": 10,
+      "user_score": 9.92,
       "user_score_level": "A",
       "ques_num": 2,
       "has_score": true
@@ -57,421 +57,1266 @@
   ],
   "questions": [
     {
-      "section_index": null,
-      "model_id": "1321272",
-      "model_type": "1",
-      "model_title": "模仿朗读",
-      "model_score": "6",
+      "section_index": 1,
       "question_index": 1,
-      "question_id": "1321272",
-      "title": "模仿朗读",
-      "text": "Foshan is a city in Guangdong Province. It is a wonderful place to live and visit. Foshan is famous for its long history and rich culture. It is the birthplace of many traditional Chinese arts and Chinese kung fu. People here also love Guangdong opera. The opera is full of interesting stories. What's more, the food in Foshan is amazing. You can taste delicious morning tea and traditional dishes here. There are many lovely parks in Foshan. People like to do exercise and relax there. Foshan is like a big and warm family with friendly people. It is truly a special city!",
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_score": "2.5",
+      "question_id": "4217981",
+      "title": null,
+      "text": "mad",
       "standard_answer": [
-        "Foshan is a city in Guangdong Province. It is a wonderful place to live and visit. Foshan is famous for its long history and rich culture. It is the birthplace of many traditional Chinese arts and Chinese kung fu. People here also love Guangdong opera. The opera is full of interesting stories. What's more, the food in Foshan is amazing. You can taste delicious morning tea and traditional dishes here. There are many lovely parks in Foshan. People like to do exercise and relax there. Foshan is like a big and warm family with friendly people. It is truly a special city!"
+        "mad"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.32"
+        "score": "0.49",
+        "fluency": 91,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e83a44ea.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/d0ef2930-a6b9-4b87-999e-5a09817c5a56/1763126293310617620/sh",
+      "details_count": 1,
+      "details_preview": [
+        {
+          "text": "mad",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321273",
-      "model_type": "7",
-      "model_title": "听选信息",
-      "model_score": "9",
-      "question_index": 1,
-      "question_id": "4363066",
-      "title": "What does Lily want to learn from Master Rao Baolian?",
-      "text": "What does Lily want to learn from Master Rao Baolian?",
-      "standard_answer": [
-        "Paper cutting.",
-        "Lily wants to learn paper cutting from her.",
-        "She wants to learn paper cutting from Master Rao Baolian.",
-        "Lily wants to learn paper cutting from Master Rao Baolian.",
-        "Lily would like to learn paper cutting from her.",
-        "Lily would love to learn paper cutting from her.",
-        "She'd like to learn paper cutting from Master Rao Baolian.",
-        "She would like to learn paper cutting from Master Rao Baolian.",
-        "Lily would like to learn paper cutting from Master Rao Baolian.",
-        "Lily would love to learn paper cutting from Master Rao Baolian."
-      ],
-      "student_answer": [],
-      "score": {
-        "score": "9",
-        "user_score": "7.99"
-      },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e9156644.mp3",
-      "details_count": 0,
-      "details_preview": []
-    },
-    {
-      "section_index": null,
-      "model_id": "1321273",
-      "model_type": "7",
-      "model_title": "听选信息",
-      "model_score": "9",
+      "section_index": 1,
       "question_index": 2,
-      "question_id": "4363067",
-      "title": "How does Lily feel about the news?",
-      "text": "How does Lily feel about the news?",
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_score": "2.5",
+      "question_id": "4217982",
+      "title": null,
+      "text": "point",
       "standard_answer": [
-        "Excited.",
-        "She feels excited about it.",
-        "Lily feels excited about it.",
-        "She feels excited about the news.",
-        "Lily feels excited about the news.",
-        "She's excited about it.",
-        "Lily is excited about it.",
-        "She is excited about the news.",
-        "Lily is excited about the news."
+        "point"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.49",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e98223db.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/78b6cc09-bb0a-4df8-8e59-3e24bda8d537/1763126300776021785/bj",
+      "details_count": 1,
+      "details_preview": [
+        {
+          "text": "point",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321273",
-      "model_type": "7",
-      "model_title": "听选信息",
-      "model_score": "9",
+      "section_index": 1,
       "question_index": 3,
-      "question_id": "4363068",
-      "title": "What does Max like doing during the Dragon Boat Festival?",
-      "text": "What does Max like doing during the Dragon Boat Festival?",
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_score": "2.5",
+      "question_id": "4217983",
+      "title": null,
+      "text": "ability",
       "standard_answer": [
-        "Watching dragon boat races.",
-        "He likes watching dragon boat races.",
-        "Max likes watching dragon boat races.",
-        "He loves watching dragon boat races.",
-        "Max enjoys watching dragon boat races.",
-        "He likes watching dragon boat races during the Dragon Boat Festival.",
-        "Max likes watching dragon boat races during the Dragon Boat Festival.",
-        "He likes to watch dragon boat races during the Dragon Boat Festival.",
-        "Max loves to watch dragon boat races during the Dragon Boat Festival."
+        "ability"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.44",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ea734146.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/eaa71357-40cb-4441-94bf-dc1860c0a346/1763126307790980507/bj",
+      "details_count": 1,
+      "details_preview": [
+        {
+          "text": "ability",
+          "score": "3.60",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321273",
-      "model_type": "7",
-      "model_title": "听选信息",
-      "model_score": "9",
+      "section_index": 1,
       "question_index": 4,
-      "question_id": "4363069",
-      "title": "When will Max go to the zoo?",
-      "text": "When will Max go to the zoo?",
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_score": "2.5",
+      "question_id": "4217984",
+      "title": null,
+      "text": "courage",
       "standard_answer": [
-        "On Sunday morning.",
-        "He'll go there on Sunday morning.",
-        "He will go there on Sunday morning.",
-        "Max will go there on Sunday morning.",
-        "He'll go to the zoo on Sunday morning.",
-        "He will go to the zoo on Sunday morning.",
-        "Max will go to the zoo on Sunday morning.",
-        "He's going there on Sunday morning.",
-        "Max is going there on Sunday morning.",
-        "He is going to the zoo on Sunday morning.",
-        "Max is going to the zoo on Sunday morning."
+        "courage"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.48",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37eae18135.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/d021c3d0-2582-4832-99c1-70b856404f94/1763126314958506990/sh",
+      "details_count": 1,
+      "details_preview": [
+        {
+          "text": "courage",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321273",
-      "model_type": "7",
-      "model_title": "听选信息",
-      "model_score": "9",
+      "section_index": 1,
       "question_index": 5,
-      "question_id": "4363070",
-      "title": "What does Vince want to show in their video?",
-      "text": "What does Vince want to show in their video?",
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_score": "2.5",
+      "question_id": "4217985",
+      "title": null,
+      "text": "record",
       "standard_answer": [
-        "The Spring Festival flower market in Foshan.",
-        "He wants to show the Spring Festival flower market in Foshan.",
-        "Vince wants to show the Spring Festival flower market in Foshan.",
-        "He wants to show the Spring Festival flower market in Foshan in it.",
-        "Vince wants to show the Spring Festival flower market in Foshan in it.",
-        "He wants to show the Spring Festival flower market in Foshan in their video.",
-        "Vince wants to show the Spring Festival flower market in Foshan in their video.",
-        "He'd like to show the Spring Festival flower market in Foshan.",
-        "He'd love to show the Spring Festival flower market in Foshan.",
-        "He would like to show the Spring Festival flower market in Foshan in it.",
-        "He would love to show the Spring Festival flower market in Foshan in it.",
-        "Vince would like to show the Spring Festival flower market in Foshan in their video.",
-        "Vince would love to show the Spring Festival flower market in Foshan in their video."
+        "record"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.49",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ebbc7968.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/82154339-83f0-41ac-820e-0c53b3922913/1763126322317397293/bj",
+      "details_count": 1,
+      "details_preview": [
+        {
+          "text": "record",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321273",
-      "model_type": "7",
-      "model_title": "听选信息",
-      "model_score": "9",
-      "question_index": 6,
-      "question_id": "4363071",
-      "title": "What will the girl bring tomorrow?",
-      "text": "What will the girl bring tomorrow?",
-      "standard_answer": [
-        "A camera.",
-        "She'll bring a camera.",
-        "She will bring a camera tomorrow.",
-        "The girl will bring a camera.",
-        "The girl will bring a camera tomorrow.",
-        "She's going to bring a camera.",
-        "She is going to bring a camera tomorrow.",
-        "The girl is going to bring a camera.",
-        "The girl is going to bring a camera tomorrow."
-      ],
-      "student_answer": [],
-      "score": {
-        "score": "9",
-        "user_score": "7.99"
-      },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ec2c1ab6.mp3",
-      "details_count": 0,
-      "details_preview": []
-    },
-    {
-      "section_index": null,
-      "model_id": "1321274",
-      "model_type": "8",
-      "model_title": "回答问题",
-      "model_score": "6",
+      "section_index": 2,
       "question_index": 1,
-      "question_id": "4363072",
-      "title": "Where did Mike visit yesterday?",
-      "text": "Where did Mike visit yesterday?",
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "（二）短语",
+      "model_score": "2.5",
+      "question_id": "4217986",
+      "title": null,
+      "text": "train for",
       "standard_answer": [
-        "A company in Foshan.",
-        "He visited a company in Foshan.",
-        "Mike visited a company in Foshan.",
-        "He visited a company in Foshan yesterday.",
-        "Mike visited a company in Foshan yesterday.",
-        "He paid a visit to a company in Foshan yesterday.",
-        "Mike paid a visit to a company in Foshan yesterday."
+        "train for"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "0.47",
+        "fluency": 91,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ed31b3ee.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/7031bac5-7022-4443-a491-0935a5d2a33d/1763126361232688698/bj",
+      "details_count": 2,
+      "details_preview": [
+        {
+          "text": "train",
+          "score": "3.64",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "for",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321274",
-      "model_type": "8",
-      "model_title": "回答问题",
-      "model_score": "6",
+      "section_index": 2,
       "question_index": 2,
-      "question_id": "4363073",
-      "title": "What did Mike see there?",
-      "text": "What did Mike see there?",
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "（二）短语",
+      "model_score": "2.5",
+      "question_id": "4217987",
+      "title": null,
+      "text": "first place",
       "standard_answer": [
-        "Many robots.",
-        "Lots of robots.",
-        "A lot of robots.",
-        "He saw many robots.",
-        "Mike saw many robots.",
-        "He saw lots of robots.",
-        "Mike saw a lot of robots.",
-        "He saw many robots there.",
-        "Mike saw many robots there.",
-        "He saw lots of robots there.",
-        "Mike saw a lot of robots there.",
-        "He saw many robots in the company.",
-        "Mike saw many robots in the company."
+        "first place"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "0.47",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ed9a3b26.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/b8a2f730-87c7-49c4-9ec8-d8a139d98fff/1763126367555125067/bj",
+      "details_count": 2,
+      "details_preview": [
+        {
+          "text": "first",
+          "score": "3.52",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "place",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321274",
-      "model_type": "8",
-      "model_title": "回答问题",
-      "model_score": "6",
+      "section_index": 2,
       "question_index": 3,
-      "question_id": "4363074",
-      "title": "Who were controlling things?",
-      "text": "Who were controlling things?",
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "（二）短语",
+      "model_score": "2.5",
+      "question_id": "4217988",
+      "title": null,
+      "text": "take pride in",
       "standard_answer": [
-        "The human workers.",
-        "The human workers were controlling things."
+        "take pride in"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "0.49",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ee088b04.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/a00dfe64-76f5-43e2-87b9-d56c6144a5db/1763126374694971672/bj",
+      "details_count": 3,
+      "details_preview": [
+        {
+          "text": "take",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "pride",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321274",
-      "model_type": "8",
-      "model_title": "回答问题",
-      "model_score": "6",
+      "section_index": 2,
       "question_index": 4,
-      "question_id": "4363075",
-      "title": "What did Mike think of this experience?",
-      "text": "What did Mike think of this experience?",
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "（二）短语",
+      "model_score": "2.5",
+      "question_id": "4217989",
+      "title": null,
+      "text": "around the world",
       "standard_answer": [
-        "Unforgettable.",
-        "It was unforgettable.",
-        "This experience was unforgettable.",
-        "It was an unforgettable experience.",
-        "He thought it was unforgettable.",
-        "Mike thought it was unforgettable.",
-        "He thought this experience was unforgettable.",
-        "Mike thought this experience was unforgettable.",
-        "He thought it was an unforgettable experience.",
-        "Mike thought it was an unforgettable experience.",
-        "In his opinion, it was unforgettable.",
-        "In Mike's opinion, it was unforgettable.",
-        "In his opinion, this experience was unforgettable.",
-        "In Mike's opinion, this experience was unforgettable.",
-        "In his view, it was an unforgettable experience.",
-        "In Mike's view, it was an unforgettable experience."
+        "around the world"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "0.50",
+        "fluency": 98,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ee772b45.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c69c41d5-d1b8-4e32-a174-8e4a52e44223/1763126381832817709/bj",
+      "details_count": 3,
+      "details_preview": [
+        {
+          "text": "around",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "world",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
-      "section_index": null,
-      "model_id": "1321275",
-      "model_type": "6",
-      "model_title": "信息转述",
+      "section_index": 2,
+      "question_index": 5,
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "（二）短语",
+      "model_score": "2.5",
+      "question_id": "4217990",
+      "title": null,
+      "text": "stop somebody from doing something",
+      "standard_answer": [
+        "stop somebody from doing something"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "0.48",
+        "fluency": 96,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/04a59987-6102-4299-9b12-7c4d0ca3af1e/1763126389220494173/bj",
+      "details_count": 5,
+      "details_preview": [
+        {
+          "text": "stop",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "somebody",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "from",
+          "score": "3.40",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "doing",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "something",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 3,
+      "question_index": 1,
+      "model_id": "1283018",
+      "model_type": "1",
+      "model_title": "第二节 短文（共1段短文，满分5分）",
+      "model_score": "5",
+      "question_id": "-1",
+      "title": null,
+      "text": "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up.",
+      "standard_answer": [
+        "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up."
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "4.55",
+        "fluency": 89,
+        "integrity": 99
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/6cbce510-096c-4fb8-b233-db7a95693677/1763126402245171267/bj",
+      "details_count": 114,
+      "details_preview": [
+        {
+          "text": "In",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "May",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "two",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "thousand",
+          "score": "3.56",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "and",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "one,",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "Liu",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "Xiang",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "won",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "his",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "first",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "international",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "one",
+          "score": "3.40",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "hundred",
+          "score": "3.48",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "and",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "ten",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meter",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "hurdles",
+          "score": "0.00",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "race",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 4,
+      "question_index": 1,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_score": "4",
+      "question_id": "4217991",
+      "title": null,
+      "text": "exciting",
+      "standard_answer": [
+        "exciting"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "0.97",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/cde5549b-eb0c-4052-8202-79e556b2d648/1763126471925421669/bj",
+      "details_count": 1,
+      "details_preview": [
+        {
+          "text": "exciting",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 4,
+      "question_index": 2,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_score": "4",
+      "question_id": "4217992",
+      "title": null,
+      "text": "his feet",
+      "standard_answer": [
+        "his feet"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "0.97",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/3735366b-a29b-4801-b029-f5845e1872ff/1763126480470742077/bj",
+      "details_count": 2,
+      "details_preview": [
+        {
+          "text": "his",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "feet",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 4,
+      "question_index": 3,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_score": "4",
+      "question_id": "4217993",
+      "title": null,
+      "text": "the football club",
+      "standard_answer": [
+        "the football club"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "0.97",
+        "fluency": 92,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/b198b606-77f5-4eb8-85b7-6afffb596bf0/1763126491362729876/bj",
+      "details_count": 3,
+      "details_preview": [
+        {
+          "text": "the",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "football",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "club",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 4,
+      "question_index": 4,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_score": "4",
+      "question_id": "4217994",
+      "title": null,
+      "text": "dancing",
+      "standard_answer": [
+        "dancing"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "0.97",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c9c0807e-d3cf-47fc-bc28-76504d2e221e/1763126500585971163/bj",
+      "details_count": 1,
+      "details_preview": [
+        {
+          "text": "dancing",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 5,
+      "question_index": 1,
+      "model_id": "1283020",
+      "model_type": "8",
+      "model_title": "第二节 回答问题（共3题；每小题2分，满分6分）",
       "model_score": "6",
-      "question_index": 1,
-      "question_id": "1321275",
-      "title": "你可以这样开始：Foshan Museum needs volunteers for a new show ...",
-      "text": "你可以这样开始：Foshan Museum needs volunteers for a new show ...",
+      "question_id": "4217995",
+      "title": null,
+      "text": "last year",
       "standard_answer": [
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we would love to invite you to be here. You need to have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we would love to invite you to be here. You need to have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan. The volunteer should have volunteering experience. The volunteer should speak both Chinese and English well. And the volunteer should be brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan. The volunteer should have volunteering experience. The volunteer should speak both Chinese and English well. And the volunteer should be brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. The volunteer needs to do well in speaking Chinese and English. And the volunteer needs to be not only brave but also confident. The interview is going to be at 10:00 on Saturday morning in the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. The volunteer needs to do well in speaking Chinese and English. And the volunteer needs to be not only brave but also confident. The interview is going to be at ten o'clock on Saturday morning in the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. The volunteer needs to be good at speaking both Chinese and English. The volunteer needs to be brave and confident. The interview will be at 10 am on Saturday. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. The volunteer needs to be good at speaking both Chinese and English. The volunteer needs to be brave and confident. The interview will be at ten am on Saturday. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at 10:00 on Saturday morning. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at ten o'clock on Saturday morning. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a great chance for you. The interview is going to be at 10 am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a great chance for you. The interview is going to be at ten am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. This is a wonderful chance for you if you are good at speaking Chinese and English and if you are brave and confident. The interview will be at 10 on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. This is a wonderful chance for you if you are good at speaking Chinese and English and if you are brave and confident. The interview will be at ten on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan and have volunteering experience. This is a great chance for you if you can speak both Chinese and English well and if you are brave and confident. The interview will be at 10 am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan and have volunteering experience. This is a great chance for you if you can speak both Chinese and English well and if you are brave and confident. The interview will be at ten am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer ought to be a middle school student from Foshan. And the volunteer ought to have volunteering experience. If you do well in speaking Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview is going to be at 10:00 on Saturday morning. And it is going to be at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer ought to be a middle school student from Foshan. And the volunteer ought to have volunteering experience. If you do well in speaking Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview is going to be at ten o'clock on Saturday morning. And it is going to be at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. First, you should be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you should be good at speaking both Chinese and English. Also, you should be brave and confident. The interview will be at 10 am on Saturday at the museum. Don't miss the chance!",
-        "Foshan Museum needs volunteers for a new show. First, you should be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you should be good at speaking both Chinese and English. Also, you should be brave and confident. The interview will be at ten am on Saturday at the museum. Don't miss the chance!",
-        "Foshan Museum needs volunteers for a new show. First, you need to be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you need to speak both Chinese and English well. What's more, you need to be brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum. We hope you won't miss the chance.",
-        "Foshan Museum needs volunteers for a new show. First, you need to be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you need to speak both Chinese and English well. What's more, you need to be brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum. We hope you won't miss the chance.",
-        "Foshan Museum needs volunteers for a new show. You need to be a middle school student from Foshan. You need to have volunteering experience. You need to do well in speaking both Chinese and English. And you need to be not only brave but also confident. The interview is going to be at 10 on Saturday morning in the museum. We're looking forward to seeing you!",
-        "Foshan Museum needs volunteers for a new show. You need to be a middle school student from Foshan. You need to have volunteering experience. You need to do well in speaking both Chinese and English. And you need to be not only brave but also confident. The interview is going to be at ten on Saturday morning in the museum. We're looking forward to seeing you!",
-        "Foshan Museum needs volunteers for a new show. You are supposed to be a middle school student from Foshan and have volunteering experience. You are supposed to be good at speaking both Chinese and English. You are supposed to be a brave and confident person. The interview will be at 10 am on Saturday. And it will be at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "Foshan Museum needs volunteers for a new show. You are supposed to be a middle school student from Foshan and have volunteering experience. You are supposed to be good at speaking both Chinese and English. You are supposed to be a brave and confident person. The interview will be at ten am on Saturday. And it will be at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum. We hope you won't miss this chance.",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum. We hope you won't miss this chance.",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum. Don't miss this chance. We are looking forward to seeing you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum. Don't miss this chance. We are looking forward to seeing you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at 10:00 on Saturday morning. And it will be at the museum. We hope you won't miss this chance. We are looking forward to meeting you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at ten o'clock on Saturday morning. And it will be at the museum. We hope you won't miss this chance. We are looking forward to meeting you!"
+        "last year"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.68"
+        "score": "1.94",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37eefc843d.mp3",
-      "details_count": 0,
-      "details_preview": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/988a6f1b-f458-4a03-b7bf-012542372c2c/1763126525255718141/bj",
+      "details_count": 2,
+      "details_preview": [
+        {
+          "text": "last",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "year",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 5,
+      "question_index": 2,
+      "model_id": "1283020",
+      "model_type": "8",
+      "model_title": "第二节 回答问题（共3题；每小题2分，满分6分）",
+      "model_score": "6",
+      "question_id": "4217996",
+      "title": null,
+      "text": "in his school",
+      "standard_answer": [
+        "in his school"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.94",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/d43e2ad1-63e2-49a3-99fa-77f074de8cab/1763126537345407066/bj",
+      "details_count": 3,
+      "details_preview": [
+        {
+          "text": "in",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "his",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "school",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 5,
+      "question_index": 3,
+      "model_id": "1283020",
+      "model_type": "8",
+      "model_title": "第二节 回答问题（共3题；每小题2分，满分6分）",
+      "model_score": "6",
+      "question_id": "4217997",
+      "title": null,
+      "text": "he often takes part in basketball games",
+      "standard_answer": [
+        "he often takes part in basketball games"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.94",
+        "fluency": 91,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/5cfb4825-1cce-480f-8fe5-07bf70e50e49/1763126545332732689/bj",
+      "details_count": 7,
+      "details_preview": [
+        {
+          "text": "he",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "often",
+          "score": "4.00",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "takes",
+          "score": "4.00",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "part",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "basketball",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "games",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 6,
+      "question_index": 1,
+      "model_id": "1283021",
+      "model_type": "6",
+      "model_title": "第一节 信息转述（共1题，满分7分）",
+      "model_score": "7",
+      "question_id": "-1",
+      "title": null,
+      "text": "jane's school held a sports meeting last friday jane took part in the one hundred meter race her friend lisa took part in the high jump her classmate maria took part in the four hundred meter race all of the students were excited",
+      "standard_answer": [],
+      "student_answer": null,
+      "score": {
+        "score": "7.00",
+        "fluency": 0,
+        "integrity": 0
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c9d82a0d-c186-41ab-9e58-d9b8a5be7df0/1763126575573400565/bj",
+      "details_count": 43,
+      "details_preview": [
+        {
+          "text": "jane's",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "school",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "held",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "a",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "sports",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meeting",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "last",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "friday",
+          "score": "3.68",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "jane",
+          "score": "3.52",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "took",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "part",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "one",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "hundred",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meter",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "race",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "her",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "friend",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "lisa",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 7,
+      "question_index": 1,
+      "model_id": "1283022",
+      "model_type": "9",
+      "model_title": "第二节 询问信息（共2小题；每小题1.5分，满分3分）",
+      "model_score": "3",
+      "question_id": "4217998",
+      "title": null,
+      "text": "when did the sports meeting end",
+      "standard_answer": [
+        "when did the sports meeting end"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.46",
+        "fluency": 93,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c9f92482-7ed2-49e2-b258-f1606a140616/1763126604727825599/bj",
+      "details_count": 6,
+      "details_preview": [
+        {
+          "text": "when",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "did",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "sports",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meeting",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "end",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "section_index": 7,
+      "question_index": 2,
+      "model_id": "1283022",
+      "model_type": "9",
+      "model_title": "第二节 询问信息（共2小题；每小题1.5分，满分3分）",
+      "model_score": "3",
+      "question_id": "4217999",
+      "title": null,
+      "text": "who won first prize in the tennis game",
+      "standard_answer": [
+        "who won first prize in the tennis game"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.46",
+        "fluency": 92,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c26e1a85-4d45-439e-b1e3-f640e3a4452e/1763126613697377046/bj",
+      "details_count": 8,
+      "details_preview": [
+        {
+          "text": "who",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "won",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "first",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "prize",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "tennis",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "game",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "section_index": null,
-      "model_id": "1321276",
-      "model_type": "9",
-      "model_title": "询问信息",
-      "model_score": "3",
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "单词",
+      "model_score": "2.5",
       "question_index": 1,
-      "question_id": "4363076",
-      "title": "志愿者什么时候将开始工作？",
-      "text": "志愿者什么时候将开始工作？",
-      "standard_answer": [
-        "When will volunteers start working?",
-        "When will volunteers begin working?",
-        "When will volunteers start to work?",
-        "When will volunteers begin to work?",
-        "When are volunteers going to start working?",
-        "When are volunteers going to begin working?",
-        "When are volunteers going to start to work?",
-        "When are volunteers going to begin to work?"
-      ],
+      "question_id": "4217981",
+      "title": "单词",
+      "text": null,
+      "standard_answer": [],
       "student_answer": [],
       "score": {
-        "score": "3",
-        "user_score": "2.73"
+        "score": "2.5",
+        "user_score": "2.39"
       },
       "audio": null,
       "details_count": 0,
@@ -479,23 +1324,507 @@
     },
     {
       "section_index": null,
-      "model_id": "1321276",
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "单词",
+      "model_score": "2.5",
+      "question_index": 2,
+      "question_id": "4217982",
+      "title": "单词",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "单词",
+      "model_score": "2.5",
+      "question_index": 3,
+      "question_id": "4217983",
+      "title": "单词",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "单词",
+      "model_score": "2.5",
+      "question_index": 4,
+      "question_id": "4217984",
+      "title": "单词",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283016",
+      "model_type": "10",
+      "model_title": "单词",
+      "model_score": "2.5",
+      "question_index": 5,
+      "question_id": "4217985",
+      "title": "单词",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "短语",
+      "model_score": "2.5",
+      "question_index": 1,
+      "question_id": "4217986",
+      "title": "短语",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "短语",
+      "model_score": "2.5",
+      "question_index": 2,
+      "question_id": "4217987",
+      "title": "短语",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "短语",
+      "model_score": "2.5",
+      "question_index": 3,
+      "question_id": "4217988",
+      "title": "短语",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "短语",
+      "model_score": "2.5",
+      "question_index": 4,
+      "question_id": "4217989",
+      "title": "短语",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283017",
+      "model_type": "10",
+      "model_title": "短语",
+      "model_score": "2.5",
+      "question_index": 5,
+      "question_id": "4217990",
+      "title": "短语",
+      "text": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283018",
+      "model_type": "1",
+      "model_title": "短文",
+      "model_score": "5",
+      "question_index": 1,
+      "question_id": "1283018",
+      "title": "短文",
+      "text": "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up.",
+      "standard_answer": [
+        "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "5",
+        "user_score": "4.55"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756b525728.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "听选信息",
+      "model_score": "4",
+      "question_index": 1,
+      "question_id": "4217991",
+      "title": "How was the match in the first period?",
+      "text": "How was the match in the first period?",
+      "standard_answer": [
+        "Exciting.",
+        "It was exciting.",
+        "The match was exciting.",
+        "The game was exciting.",
+        "It was exciting in the first period.",
+        "The match was exciting in the first period."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756c214b98.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "听选信息",
+      "model_score": "4",
+      "question_index": 2,
+      "question_id": "4217992",
+      "title": "What did Steven hurt in the last period?",
+      "text": "What did Steven hurt in the last period?",
+      "standard_answer": [
+        "His feet.",
+        "He hurt his feet.",
+        "He hurt his feet in the last period.",
+        "Steven hurt his feet in the last period.",
+        "His feet were hurt.",
+        "Steven's feet were injured.",
+        "His feet were hurt in the last period."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756c65b9e1.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "听选信息",
+      "model_score": "4",
+      "question_index": 3,
+      "question_id": "4217993",
+      "title": "What club does Tony want to join?",
+      "text": "What club does Tony want to join?",
+      "standard_answer": [
+        "The football club.",
+        "The soccer club.",
+        "He wants to join the football club.",
+        "He'd like to join the football club.",
+        "He would love to join the soccer club.",
+        "Tony wants to join the soccer club.",
+        "Tony would like to join the football club."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/11/01/6541e9e714f28.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283019",
+      "model_type": "7",
+      "model_title": "听选信息",
+      "model_score": "4",
+      "question_index": 4,
+      "question_id": "4217994",
+      "title": "What does Mary like doing?",
+      "text": "What does Mary like doing?",
+      "standard_answer": [
+        "Dancing.",
+        "She likes dancing.",
+        "She loves dancing.",
+        "Mary enjoys dancing.",
+        "She likes to dance.",
+        "Mary loves to dance.",
+        "She's fond of dancing.",
+        "She is fond of dancing."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/11/01/6541ea1d2879e.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283020",
+      "model_type": "8",
+      "model_title": "回答问题",
+      "model_score": "6",
+      "question_index": 1,
+      "question_id": "4217995",
+      "title": "When did Paul's father give a basketball to Paul?",
+      "text": "When did Paul's father give a basketball to Paul?",
+      "standard_answer": [
+        "Last year.",
+        "He gave it to Paul last year.",
+        "He gave a basketball to Paul last year.",
+        "Paul's father gave Paul a basketball last year.",
+        "His dad gave him a basketball last year.",
+        "Paul's daddy gave Paul a basketball last year.",
+        "Paul's father gave a basketball to Paul last year."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "6",
+        "user_score": "5.82"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756feab372.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283020",
+      "model_type": "8",
+      "model_title": "回答问题",
+      "model_score": "6",
+      "question_index": 2,
+      "question_id": "4217996",
+      "title": "Where does Paul play basketball with his classmates?",
+      "text": "Where does Paul play basketball with his classmates?",
+      "standard_answer": [
+        "In his school.",
+        "At school.",
+        "He plays it with them in his school.",
+        "He plays it with his classmates at school.",
+        "He plays basketball with his classmates in his school.",
+        "Paul plays basketball with them at school."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "6",
+        "user_score": "5.82"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/6527570348836.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283020",
+      "model_type": "8",
+      "model_title": "回答问题",
+      "model_score": "6",
+      "question_index": 3,
+      "question_id": "4217997",
+      "title": "What does Paul often do?",
+      "text": "What does Paul often do?",
+      "standard_answer": [
+        "He often takes part in basketball games.",
+        "He often joins in basketball games.",
+        "He often takes part in basketball matches.",
+        "He often joins in basketball matches.",
+        "Paul often takes part in basketball games.",
+        "Paul often joins in basketball games.",
+        "Paul often takes part in basketball matches.",
+        "Paul often joins in basketball matches."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "6",
+        "user_score": "5.82"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/6527570827b21.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283021",
+      "model_type": "6",
+      "model_title": "信息转述",
+      "model_score": "7",
+      "question_index": 1,
+      "question_id": "1283021",
+      "title": "你的转述可以这样开始：Jane's school held a sports meeting ...",
+      "text": "你的转述可以这样开始：Jane's school held a sports meeting ...",
+      "standard_answer": [
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Her friend Lisa took part in the high jump. Her classmate Maria took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Her friend Lisa took part in the high jump. Her classmate Maria took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. Lisa is her friend. She took part in the high jump. Jane's classmate Maria took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. Lisa is her friend. She took part in the high jump. Jane's classmate Maria took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. She took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. She took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Lisa is her friend and she took part in the high jump. Maria is Jane's classmate and she took part in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Lisa is her friend and she took part in the high jump. Maria is Jane's classmate and she took part in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. Maria joined in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Lisa is Jane's friend. Lisa took part in the high jump. Jane's classmate Maria joined in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Lisa is Jane's friend. Lisa took part in the high jump. Jane's classmate Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. Jane's friend is Lisa. Lisa joined in the high jump. Maria is Jane's classmate. Maria took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. Jane's friend is Lisa. Lisa joined in the high jump. Maria is Jane's classmate. Maria took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Lisa is Jane's friend and she took part in the high jump. What about Jane's classmate Maria? She took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Lisa is Jane's friend and she took part in the high jump. What about Jane's classmate Maria? She took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. What about Jane's friend Lisa? She took part in the high jump. Jane's classmate Maria joined in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. What about Jane's friend Lisa? She took part in the high jump. Jane's classmate Maria joined in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the 100-meter race. Her friend Lisa joined in the high jump. Jane's classmate Maria participated in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the one hundred meter race. Her friend Lisa joined in the high jump. Jane's classmate Maria participated in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the 100-meter race. Lisa is her friend and she participated in the high jump. Jane's classmate Maria joined in the 400-meter race. The students were all excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the one hundred meter race. Lisa is her friend and she participated in the high jump. Jane's classmate Maria joined in the four hundred meter race. The students were all excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Her friend Lisa participated in the high jump. Maria is Jane's classmate. Maria participated in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Her friend Lisa participated in the high jump. Maria is Jane's classmate. Maria participated in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the first event — the 100-meter race. Jane's friend Lisa took part in the high jump at noon. Jane's classmate Maria joined in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the first event the one hundred meter race. Jane's friend Lisa took part in the high jump at noon. Jane's classmate Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane took part in the 100-meter race. Her friend Lisa joined in the high jump at noon. Maria is Jane's classmate. She took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane took part in the one hundred meter race. Her friend Lisa joined in the high jump at noon. Maria is Jane's classmate. She took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the 100-meter race. Lisa is her friend and she took part in the high jump at noon. Maria is Jane's classmate and she took part in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the one hundred meter race. Lisa is her friend and she took part in the high jump at noon. Maria is Jane's classmate and she took part in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Students got to the playground in the morning. Jane joined in the 100-meter race. Her friend Lisa joined in the high jump at noon. Jane's classmate Maria joined in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Students got to the playground in the morning. Jane joined in the one hundred meter race. Her friend Lisa joined in the high jump at noon. Jane's classmate Maria joined in the four hundred meter race. All of the students felt excited.",
+        "Last Friday, Jane's school held a sports meeting. In the morning, students arrived at the playground. Jane took part in the first event — the 100-meter race. Lisa is Jane's friend. Lisa took part in the high jump at noon. Jane's classmate Maria joined in the 400-meter race. All of the students were excited.",
+        "Last Friday, Jane's school held a sports meeting. In the morning, students arrived at the playground. Jane took part in the first event the one hundred meter race. Lisa is Jane's friend. Lisa took part in the high jump at noon. Jane's classmate Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meet last Friday. Students got to the playground in the morning. Jane took part in the first event — the 100-meter race. Her friend Lisa took part in the high jump at noon. The events in the afternoon were the 400-meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the 400-meter race. But she fell down. Although Maria had the courage to finish the race, she was not going to break the record this time. The students were all excited.",
+        "Jane's school held a sports meet last Friday. Students got to the playground in the morning. Jane took part in the first event the one hundred meter race. Her friend Lisa took part in the high jump at noon. The events in the afternoon were the four hundred meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the four hundred meter race. But she fell down. Although Maria had the courage to finish the race, she was not going to break the record this time. The students were all excited.",
+        "Last Friday, Jane's school held a sports meet. In the morning, students got to the playground. Jane joined in the first event — the 100-meter race. Her friend Lisa joined in the high jump at noon. The events in the afternoon were the 400-meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria joined in the 400-meter race. However, Maria fell down. She had the courage to finish the race, but she was not going to break the record this time. All of the students felt excited.",
+        "Last Friday, Jane's school held a sports meet. In the morning, students got to the playground. Jane joined in the first event the one hundred meter race. Her friend Lisa joined in the high jump at noon. The events in the afternoon were the four hundred meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria joined in the four hundred meter race. However, Maria fell down. She had the courage to finish the race, but she was not going to break the record this time. All of the students felt excited.",
+        "Jane's school had a sports meet last Friday. Students arrived at the playground in the morning. Jane took part in the first event — the 100-meter race. At noon, her friend Lisa joined in the high jump. The events in the afternoon were the 400-meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the 400-meter race. But she fell down. She was not going to break the record this time though she had the courage to finish the race. The students were all excited.",
+        "Jane's school had a sports meet last Friday. Students arrived at the playground in the morning. Jane took part in the first event the one hundred meter race. At noon, her friend Lisa joined in the high jump. The events in the afternoon were the four hundred meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the four hundred meter race. But she fell down. She was not going to break the record this time though she had the courage to finish the race. The students were all excited."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "7",
+        "user_score": "7"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/65275710c320b.mp3",
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283022",
       "model_type": "9",
       "model_title": "询问信息",
       "model_score": "3",
-      "question_index": 2,
-      "question_id": "4363077",
-      "title": "志愿者一周需要工作几天？",
-      "text": "志愿者一周需要工作几天？",
+      "question_index": 1,
+      "question_id": "4217998",
+      "title": "运动会是什么时间结束的？",
+      "text": "运动会是什么时间结束的？",
       "standard_answer": [
-        "How many days do volunteers need to work a week?",
-        "How many days do volunteers need to work every week?",
-        "How many days do volunteers need to work each week?"
+        "When did the sports meeting end?",
+        "When was the sports meeting over?",
+        "When did the sports meeting finish?"
       ],
       "student_answer": [],
       "score": {
         "score": "3",
-        "user_score": "2.73"
+        "user_score": "2.92"
+      },
+      "audio": null,
+      "details_count": 0,
+      "details_preview": []
+    },
+    {
+      "section_index": null,
+      "model_id": "1283022",
+      "model_type": "9",
+      "model_title": "询问信息",
+      "model_score": "3",
+      "question_index": 2,
+      "question_id": "4217999",
+      "title": "谁在网球比赛中获得了第一名？",
+      "text": "谁在网球比赛中获得了第一名？",
+      "standard_answer": [
+        "Who won first prize in the tennis game?",
+        "Who got first prize in the tennis game?",
+        "Who won first prize in the tennis match?",
+        "Who got first prize in the tennis match?"
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "3",
+        "user_score": "2.92"
       },
       "audio": null,
       "details_count": 0,
@@ -505,395 +1834,1612 @@
   "answers_only": [
     {
       "index": 1,
-      "model_title": "模仿朗读",
-      "model_id": "1321272",
-      "model_type": "1",
-      "question_id": "1321272",
-      "prompt_or_reference": "Foshan is a city in Guangdong Province. It is a wonderful place to live and visit. Foshan is famous for its long history and rich culture. It is the birthplace of many traditional Chinese arts and Chinese kung fu. People here also love Guangdong opera. The opera is full of interesting stories. What's more, the food in Foshan is amazing. You can taste delicious morning tea and traditional dishes here. There are many lovely parks in Foshan. People like to do exercise and relax there. Foshan is like a big and warm family with friendly people. It is truly a special city!",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217981",
+      "prompt_or_reference": "mad",
       "standard_answer": [
-        "Foshan is a city in Guangdong Province. It is a wonderful place to live and visit. Foshan is famous for its long history and rich culture. It is the birthplace of many traditional Chinese arts and Chinese kung fu. People here also love Guangdong opera. The opera is full of interesting stories. What's more, the food in Foshan is amazing. You can taste delicious morning tea and traditional dishes here. There are many lovely parks in Foshan. People like to do exercise and relax there. Foshan is like a big and warm family with friendly people. It is truly a special city!"
+        "mad"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.32"
+        "score": "0.49",
+        "fluency": 91,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e83a44ea.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/d0ef2930-a6b9-4b87-999e-5a09817c5a56/1763126293310617620/sh",
+      "word_scores": [
+        {
+          "text": "mad",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 2,
-      "model_title": "听选信息",
-      "model_id": "1321273",
-      "model_type": "7",
-      "question_id": "4363066",
-      "prompt_or_reference": "What does Lily want to learn from Master Rao Baolian?",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217982",
+      "prompt_or_reference": "point",
       "standard_answer": [
-        "Paper cutting.",
-        "Lily wants to learn paper cutting from her.",
-        "She wants to learn paper cutting from Master Rao Baolian.",
-        "Lily wants to learn paper cutting from Master Rao Baolian.",
-        "Lily would like to learn paper cutting from her.",
-        "Lily would love to learn paper cutting from her.",
-        "She'd like to learn paper cutting from Master Rao Baolian.",
-        "She would like to learn paper cutting from Master Rao Baolian.",
-        "Lily would like to learn paper cutting from Master Rao Baolian.",
-        "Lily would love to learn paper cutting from Master Rao Baolian."
+        "point"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.49",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e9156644.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/78b6cc09-bb0a-4df8-8e59-3e24bda8d537/1763126300776021785/bj",
+      "word_scores": [
+        {
+          "text": "point",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 3,
-      "model_title": "听选信息",
-      "model_id": "1321273",
-      "model_type": "7",
-      "question_id": "4363067",
-      "prompt_or_reference": "How does Lily feel about the news?",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217983",
+      "prompt_or_reference": "ability",
       "standard_answer": [
-        "Excited.",
-        "She feels excited about it.",
-        "Lily feels excited about it.",
-        "She feels excited about the news.",
-        "Lily feels excited about the news.",
-        "She's excited about it.",
-        "Lily is excited about it.",
-        "She is excited about the news.",
-        "Lily is excited about the news."
+        "ability"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.44",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e98223db.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/eaa71357-40cb-4441-94bf-dc1860c0a346/1763126307790980507/bj",
+      "word_scores": [
+        {
+          "text": "ability",
+          "score": "3.60",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 4,
-      "model_title": "听选信息",
-      "model_id": "1321273",
-      "model_type": "7",
-      "question_id": "4363068",
-      "prompt_or_reference": "What does Max like doing during the Dragon Boat Festival?",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217984",
+      "prompt_or_reference": "courage",
       "standard_answer": [
-        "Watching dragon boat races.",
-        "He likes watching dragon boat races.",
-        "Max likes watching dragon boat races.",
-        "He loves watching dragon boat races.",
-        "Max enjoys watching dragon boat races.",
-        "He likes watching dragon boat races during the Dragon Boat Festival.",
-        "Max likes watching dragon boat races during the Dragon Boat Festival.",
-        "He likes to watch dragon boat races during the Dragon Boat Festival.",
-        "Max loves to watch dragon boat races during the Dragon Boat Festival."
+        "courage"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.48",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ea734146.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/d021c3d0-2582-4832-99c1-70b856404f94/1763126314958506990/sh",
+      "word_scores": [
+        {
+          "text": "courage",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 5,
-      "model_title": "听选信息",
-      "model_id": "1321273",
-      "model_type": "7",
-      "question_id": "4363069",
-      "prompt_or_reference": "When will Max go to the zoo?",
+      "model_title": "第一节 单词、短语（共5个单词，5个短语，每个0.5分，满分5分）\n（一）单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217985",
+      "prompt_or_reference": "record",
       "standard_answer": [
-        "On Sunday morning.",
-        "He'll go there on Sunday morning.",
-        "He will go there on Sunday morning.",
-        "Max will go there on Sunday morning.",
-        "He'll go to the zoo on Sunday morning.",
-        "He will go to the zoo on Sunday morning.",
-        "Max will go to the zoo on Sunday morning.",
-        "He's going there on Sunday morning.",
-        "Max is going there on Sunday morning.",
-        "He is going to the zoo on Sunday morning.",
-        "Max is going to the zoo on Sunday morning."
+        "record"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.49",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37eae18135.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/82154339-83f0-41ac-820e-0c53b3922913/1763126322317397293/bj",
+      "word_scores": [
+        {
+          "text": "record",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 6,
-      "model_title": "听选信息",
-      "model_id": "1321273",
-      "model_type": "7",
-      "question_id": "4363070",
-      "prompt_or_reference": "What does Vince want to show in their video?",
+      "model_title": "（二）短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217986",
+      "prompt_or_reference": "train for",
       "standard_answer": [
-        "The Spring Festival flower market in Foshan.",
-        "He wants to show the Spring Festival flower market in Foshan.",
-        "Vince wants to show the Spring Festival flower market in Foshan.",
-        "He wants to show the Spring Festival flower market in Foshan in it.",
-        "Vince wants to show the Spring Festival flower market in Foshan in it.",
-        "He wants to show the Spring Festival flower market in Foshan in their video.",
-        "Vince wants to show the Spring Festival flower market in Foshan in their video.",
-        "He'd like to show the Spring Festival flower market in Foshan.",
-        "He'd love to show the Spring Festival flower market in Foshan.",
-        "He would like to show the Spring Festival flower market in Foshan in it.",
-        "He would love to show the Spring Festival flower market in Foshan in it.",
-        "Vince would like to show the Spring Festival flower market in Foshan in their video.",
-        "Vince would love to show the Spring Festival flower market in Foshan in their video."
+        "train for"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.47",
+        "fluency": 91,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ebbc7968.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/7031bac5-7022-4443-a491-0935a5d2a33d/1763126361232688698/bj",
+      "word_scores": [
+        {
+          "text": "train",
+          "score": "3.64",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "for",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 7,
-      "model_title": "听选信息",
-      "model_id": "1321273",
-      "model_type": "7",
-      "question_id": "4363071",
-      "prompt_or_reference": "What will the girl bring tomorrow?",
+      "model_title": "（二）短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217987",
+      "prompt_or_reference": "first place",
       "standard_answer": [
-        "A camera.",
-        "She'll bring a camera.",
-        "She will bring a camera tomorrow.",
-        "The girl will bring a camera.",
-        "The girl will bring a camera tomorrow.",
-        "She's going to bring a camera.",
-        "She is going to bring a camera tomorrow.",
-        "The girl is going to bring a camera.",
-        "The girl is going to bring a camera tomorrow."
+        "first place"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "9",
-        "user_score": "7.99"
+        "score": "0.47",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ec2c1ab6.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/b8a2f730-87c7-49c4-9ec8-d8a139d98fff/1763126367555125067/bj",
+      "word_scores": [
+        {
+          "text": "first",
+          "score": "3.52",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "place",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 8,
-      "model_title": "回答问题",
-      "model_id": "1321274",
-      "model_type": "8",
-      "question_id": "4363072",
-      "prompt_or_reference": "Where did Mike visit yesterday?",
+      "model_title": "（二）短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217988",
+      "prompt_or_reference": "take pride in",
       "standard_answer": [
-        "A company in Foshan.",
-        "He visited a company in Foshan.",
-        "Mike visited a company in Foshan.",
-        "He visited a company in Foshan yesterday.",
-        "Mike visited a company in Foshan yesterday.",
-        "He paid a visit to a company in Foshan yesterday.",
-        "Mike paid a visit to a company in Foshan yesterday."
+        "take pride in"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "0.49",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ed31b3ee.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/a00dfe64-76f5-43e2-87b9-d56c6144a5db/1763126374694971672/bj",
+      "word_scores": [
+        {
+          "text": "take",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "pride",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 9,
-      "model_title": "回答问题",
-      "model_id": "1321274",
-      "model_type": "8",
-      "question_id": "4363073",
-      "prompt_or_reference": "What did Mike see there?",
+      "model_title": "（二）短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217989",
+      "prompt_or_reference": "around the world",
       "standard_answer": [
-        "Many robots.",
-        "Lots of robots.",
-        "A lot of robots.",
-        "He saw many robots.",
-        "Mike saw many robots.",
-        "He saw lots of robots.",
-        "Mike saw a lot of robots.",
-        "He saw many robots there.",
-        "Mike saw many robots there.",
-        "He saw lots of robots there.",
-        "Mike saw a lot of robots there.",
-        "He saw many robots in the company.",
-        "Mike saw many robots in the company."
+        "around the world"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "0.50",
+        "fluency": 98,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ed9a3b26.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c69c41d5-d1b8-4e32-a174-8e4a52e44223/1763126381832817709/bj",
+      "word_scores": [
+        {
+          "text": "around",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "world",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 10,
-      "model_title": "回答问题",
-      "model_id": "1321274",
-      "model_type": "8",
-      "question_id": "4363074",
-      "prompt_or_reference": "Who were controlling things?",
+      "model_title": "（二）短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217990",
+      "prompt_or_reference": "stop somebody from doing something",
       "standard_answer": [
-        "The human workers.",
-        "The human workers were controlling things."
+        "stop somebody from doing something"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "0.48",
+        "fluency": 96,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ee088b04.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/04a59987-6102-4299-9b12-7c4d0ca3af1e/1763126389220494173/bj",
+      "word_scores": [
+        {
+          "text": "stop",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "somebody",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "from",
+          "score": "3.40",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "doing",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "something",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 11,
-      "model_title": "回答问题",
-      "model_id": "1321274",
-      "model_type": "8",
-      "question_id": "4363075",
-      "prompt_or_reference": "What did Mike think of this experience?",
+      "model_title": "第二节 短文（共1段短文，满分5分）",
+      "model_id": "1283018",
+      "model_type": "1",
+      "question_id": "-1",
+      "prompt_or_reference": "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up.",
       "standard_answer": [
-        "Unforgettable.",
-        "It was unforgettable.",
-        "This experience was unforgettable.",
-        "It was an unforgettable experience.",
-        "He thought it was unforgettable.",
-        "Mike thought it was unforgettable.",
-        "He thought this experience was unforgettable.",
-        "Mike thought this experience was unforgettable.",
-        "He thought it was an unforgettable experience.",
-        "Mike thought it was an unforgettable experience.",
-        "In his opinion, it was unforgettable.",
-        "In Mike's opinion, it was unforgettable.",
-        "In his opinion, this experience was unforgettable.",
-        "In Mike's opinion, this experience was unforgettable.",
-        "In his view, it was an unforgettable experience.",
-        "In Mike's view, it was an unforgettable experience."
+        "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up."
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.24"
+        "score": "4.55",
+        "fluency": 89,
+        "integrity": 99
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ee772b45.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/6cbce510-096c-4fb8-b233-db7a95693677/1763126402245171267/bj",
+      "word_scores": [
+        {
+          "text": "In",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "May",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "two",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "thousand",
+          "score": "3.56",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "and",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "one,",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "Liu",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "Xiang",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "won",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "his",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "first",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "international",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "one",
+          "score": "3.40",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "hundred",
+          "score": "3.48",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "and",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "ten",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meter",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "hurdles",
+          "score": "0.00",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "race",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 12,
-      "model_title": "信息转述",
-      "model_id": "1321275",
-      "model_type": "6",
-      "question_id": "1321275",
-      "prompt_or_reference": "你可以这样开始：Foshan Museum needs volunteers for a new show ...",
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217991",
+      "prompt_or_reference": "exciting",
       "standard_answer": [
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we would love to invite you to be here. You need to have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we would love to invite you to be here. You need to have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan. The volunteer should have volunteering experience. The volunteer should speak both Chinese and English well. And the volunteer should be brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan. The volunteer should have volunteering experience. The volunteer should speak both Chinese and English well. And the volunteer should be brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. The volunteer needs to do well in speaking Chinese and English. And the volunteer needs to be not only brave but also confident. The interview is going to be at 10:00 on Saturday morning in the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. The volunteer needs to do well in speaking Chinese and English. And the volunteer needs to be not only brave but also confident. The interview is going to be at ten o'clock on Saturday morning in the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. The volunteer needs to be good at speaking both Chinese and English. The volunteer needs to be brave and confident. The interview will be at 10 am on Saturday. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. The volunteer needs to be good at speaking both Chinese and English. The volunteer needs to be brave and confident. The interview will be at ten am on Saturday. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at 10:00 on Saturday morning. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at ten o'clock on Saturday morning. And it will be at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a great chance for you. The interview is going to be at 10 am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a great chance for you. The interview is going to be at ten am on Saturday at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. This is a wonderful chance for you if you are good at speaking Chinese and English and if you are brave and confident. The interview will be at 10 on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. This is a wonderful chance for you if you are good at speaking Chinese and English and if you are brave and confident. The interview will be at ten on Saturday morning at the museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan and have volunteering experience. This is a great chance for you if you can speak both Chinese and English well and if you are brave and confident. The interview will be at 10 am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan and have volunteering experience. This is a great chance for you if you can speak both Chinese and English well and if you are brave and confident. The interview will be at ten am on Saturday at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer ought to be a middle school student from Foshan. And the volunteer ought to have volunteering experience. If you do well in speaking Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview is going to be at 10:00 on Saturday morning. And it is going to be at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. The volunteer ought to be a middle school student from Foshan. And the volunteer ought to have volunteering experience. If you do well in speaking Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview is going to be at ten o'clock on Saturday morning. And it is going to be at Foshan Museum.",
-        "Foshan Museum needs volunteers for a new show. First, you should be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you should be good at speaking both Chinese and English. Also, you should be brave and confident. The interview will be at 10 am on Saturday at the museum. Don't miss the chance!",
-        "Foshan Museum needs volunteers for a new show. First, you should be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you should be good at speaking both Chinese and English. Also, you should be brave and confident. The interview will be at ten am on Saturday at the museum. Don't miss the chance!",
-        "Foshan Museum needs volunteers for a new show. First, you need to be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you need to speak both Chinese and English well. What's more, you need to be brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum. We hope you won't miss the chance.",
-        "Foshan Museum needs volunteers for a new show. First, you need to be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you need to speak both Chinese and English well. What's more, you need to be brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum. We hope you won't miss the chance.",
-        "Foshan Museum needs volunteers for a new show. You need to be a middle school student from Foshan. You need to have volunteering experience. You need to do well in speaking both Chinese and English. And you need to be not only brave but also confident. The interview is going to be at 10 on Saturday morning in the museum. We're looking forward to seeing you!",
-        "Foshan Museum needs volunteers for a new show. You need to be a middle school student from Foshan. You need to have volunteering experience. You need to do well in speaking both Chinese and English. And you need to be not only brave but also confident. The interview is going to be at ten on Saturday morning in the museum. We're looking forward to seeing you!",
-        "Foshan Museum needs volunteers for a new show. You are supposed to be a middle school student from Foshan and have volunteering experience. You are supposed to be good at speaking both Chinese and English. You are supposed to be a brave and confident person. The interview will be at 10 am on Saturday. And it will be at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "Foshan Museum needs volunteers for a new show. You are supposed to be a middle school student from Foshan and have volunteering experience. You are supposed to be good at speaking both Chinese and English. You are supposed to be a brave and confident person. The interview will be at ten am on Saturday. And it will be at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum. We hope you won't miss this chance.",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum. We hope you won't miss this chance.",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum. Don't miss this chance. We are looking forward to seeing you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum. Don't miss this chance. We are looking forward to seeing you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at 10:00 on Saturday morning. And it will be at the museum. We hope you won't miss this chance. We are looking forward to meeting you!",
-        "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at ten o'clock on Saturday morning. And it will be at the museum. We hope you won't miss this chance. We are looking forward to meeting you!"
+        "exciting"
       ],
-      "student_answer": [],
+      "student_answer": null,
       "score": {
-        "score": "6",
-        "user_score": "5.68"
+        "score": "0.97",
+        "fluency": 90,
+        "integrity": 100
       },
-      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37eefc843d.mp3",
-      "word_scores": []
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/cde5549b-eb0c-4052-8202-79e556b2d648/1763126471925421669/bj",
+      "word_scores": [
+        {
+          "text": "exciting",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
     },
     {
       "index": 13,
-      "model_title": "询问信息",
-      "model_id": "1321276",
-      "model_type": "9",
-      "question_id": "4363076",
-      "prompt_or_reference": "志愿者什么时候将开始工作？",
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217992",
+      "prompt_or_reference": "his feet",
       "standard_answer": [
-        "When will volunteers start working?",
-        "When will volunteers begin working?",
-        "When will volunteers start to work?",
-        "When will volunteers begin to work?",
-        "When are volunteers going to start working?",
-        "When are volunteers going to begin working?",
-        "When are volunteers going to start to work?",
-        "When are volunteers going to begin to work?"
+        "his feet"
       ],
+      "student_answer": null,
+      "score": {
+        "score": "0.97",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/3735366b-a29b-4801-b029-f5845e1872ff/1763126480470742077/bj",
+      "word_scores": [
+        {
+          "text": "his",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "feet",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217993",
+      "prompt_or_reference": "the football club",
+      "standard_answer": [
+        "the football club"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "0.97",
+        "fluency": 92,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/b198b606-77f5-4eb8-85b7-6afffb596bf0/1763126491362729876/bj",
+      "word_scores": [
+        {
+          "text": "the",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "football",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "club",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "model_title": "第一节 听选信息（共4题；每小题1分，满分4分）",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217994",
+      "prompt_or_reference": "dancing",
+      "standard_answer": [
+        "dancing"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "0.97",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c9c0807e-d3cf-47fc-bc28-76504d2e221e/1763126500585971163/bj",
+      "word_scores": [
+        {
+          "text": "dancing",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "model_title": "第二节 回答问题（共3题；每小题2分，满分6分）",
+      "model_id": "1283020",
+      "model_type": "8",
+      "question_id": "4217995",
+      "prompt_or_reference": "last year",
+      "standard_answer": [
+        "last year"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.94",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/988a6f1b-f458-4a03-b7bf-012542372c2c/1763126525255718141/bj",
+      "word_scores": [
+        {
+          "text": "last",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "year",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "model_title": "第二节 回答问题（共3题；每小题2分，满分6分）",
+      "model_id": "1283020",
+      "model_type": "8",
+      "question_id": "4217996",
+      "prompt_or_reference": "in his school",
+      "standard_answer": [
+        "in his school"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.94",
+        "fluency": 90,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/d43e2ad1-63e2-49a3-99fa-77f074de8cab/1763126537345407066/bj",
+      "word_scores": [
+        {
+          "text": "in",
+          "score": "3.76",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "his",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "school",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "model_title": "第二节 回答问题（共3题；每小题2分，满分6分）",
+      "model_id": "1283020",
+      "model_type": "8",
+      "question_id": "4217997",
+      "prompt_or_reference": "he often takes part in basketball games",
+      "standard_answer": [
+        "he often takes part in basketball games"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.94",
+        "fluency": 91,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/5cfb4825-1cce-480f-8fe5-07bf70e50e49/1763126545332732689/bj",
+      "word_scores": [
+        {
+          "text": "he",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "often",
+          "score": "4.00",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "takes",
+          "score": "4.00",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "part",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "basketball",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "games",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "model_title": "第一节 信息转述（共1题，满分7分）",
+      "model_id": "1283021",
+      "model_type": "6",
+      "question_id": "-1",
+      "prompt_or_reference": "jane's school held a sports meeting last friday jane took part in the one hundred meter race her friend lisa took part in the high jump her classmate maria took part in the four hundred meter race all of the students were excited",
+      "standard_answer": [],
+      "student_answer": null,
+      "score": {
+        "score": "7.00",
+        "fluency": 0,
+        "integrity": 0
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c9d82a0d-c186-41ab-9e58-d9b8a5be7df0/1763126575573400565/bj",
+      "word_scores": [
+        {
+          "text": "jane's",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "school",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "held",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "a",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "sports",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meeting",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "last",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "friday",
+          "score": "3.68",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "jane",
+          "score": "3.52",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "took",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "part",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "one",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "hundred",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meter",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "race",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "her",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "friend",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "lisa",
+          "score": "3.84",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "model_title": "第二节 询问信息（共2小题；每小题1.5分，满分3分）",
+      "model_id": "1283022",
+      "model_type": "9",
+      "question_id": "4217998",
+      "prompt_or_reference": "when did the sports meeting end",
+      "standard_answer": [
+        "when did the sports meeting end"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.46",
+        "fluency": 93,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c9f92482-7ed2-49e2-b258-f1606a140616/1763126604727825599/bj",
+      "word_scores": [
+        {
+          "text": "when",
+          "score": "3.88",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "did",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.72",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "sports",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "meeting",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "end",
+          "score": "3.92",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "model_title": "第二节 询问信息（共2小题；每小题1.5分，满分3分）",
+      "model_id": "1283022",
+      "model_type": "9",
+      "question_id": "4217999",
+      "prompt_or_reference": "who won first prize in the tennis game",
+      "standard_answer": [
+        "who won first prize in the tennis game"
+      ],
+      "student_answer": null,
+      "score": {
+        "score": "1.46",
+        "fluency": 92,
+        "integrity": 100
+      },
+      "audio": "https://edu.hivoice.cn/WebAudio-1.0-SNAPSHOT/audio/play/c26e1a85-4d45-439e-b1e3-f640e3a4452e/1763126613697377046/bj",
+      "word_scores": [
+        {
+          "text": "who",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "won",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "first",
+          "score": "3.80",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "prize",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "in",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "the",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "tennis",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        },
+        {
+          "text": "game",
+          "score": "3.96",
+          "hypothesis": "",
+          "pronunciation": -1,
+          "fluency": -1,
+          "integrity": -1
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "model_title": "单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217981",
+      "prompt_or_reference": null,
+      "standard_answer": [],
       "student_answer": [],
       "score": {
-        "score": "3",
-        "user_score": "2.73"
+        "score": "2.5",
+        "user_score": "2.39"
       },
       "audio": null,
       "word_scores": []
     },
     {
-      "index": 14,
-      "model_title": "询问信息",
-      "model_id": "1321276",
-      "model_type": "9",
-      "question_id": "4363077",
-      "prompt_or_reference": "志愿者一周需要工作几天？",
+      "index": 23,
+      "model_title": "单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217982",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 24,
+      "model_title": "单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217983",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 25,
+      "model_title": "单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217984",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 26,
+      "model_title": "单词",
+      "model_id": "1283016",
+      "model_type": "10",
+      "question_id": "4217985",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.39"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 27,
+      "model_title": "短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217986",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 28,
+      "model_title": "短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217987",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 29,
+      "model_title": "短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217988",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 30,
+      "model_title": "短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217989",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 31,
+      "model_title": "短语",
+      "model_id": "1283017",
+      "model_type": "10",
+      "question_id": "4217990",
+      "prompt_or_reference": null,
+      "standard_answer": [],
+      "student_answer": [],
+      "score": {
+        "score": "2.5",
+        "user_score": "2.41"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 32,
+      "model_title": "短文",
+      "model_id": "1283018",
+      "model_type": "1",
+      "question_id": "1283018",
+      "prompt_or_reference": "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up.",
       "standard_answer": [
-        "How many days do volunteers need to work a week?",
-        "How many days do volunteers need to work every week?",
-        "How many days do volunteers need to work each week?"
+        "In May two thousand and one, Liu Xiang won his first international one hundred and ten meter hurdles race in Japan. In two thousand and four, he won the first Olympic gold medal for China in the one hundred and ten meter hurdles race, and at the same time broke the Olympic Games record. It was also the first time an Olympic gold medal for hurdling was hung round the neck of a sportsperson from an Asian country. Liu Xiang trained very hard. In fact, he trained so hard that he hurt his foot. From two thousand and eight on, he suffered a lot from his foot problem, but he did not give up."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "5",
+        "user_score": "4.55"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756b525728.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 33,
+      "model_title": "听选信息",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217991",
+      "prompt_or_reference": "How was the match in the first period?",
+      "standard_answer": [
+        "Exciting.",
+        "It was exciting.",
+        "The match was exciting.",
+        "The game was exciting.",
+        "It was exciting in the first period.",
+        "The match was exciting in the first period."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756c214b98.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 34,
+      "model_title": "听选信息",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217992",
+      "prompt_or_reference": "What did Steven hurt in the last period?",
+      "standard_answer": [
+        "His feet.",
+        "He hurt his feet.",
+        "He hurt his feet in the last period.",
+        "Steven hurt his feet in the last period.",
+        "His feet were hurt.",
+        "Steven's feet were injured.",
+        "His feet were hurt in the last period."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756c65b9e1.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 35,
+      "model_title": "听选信息",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217993",
+      "prompt_or_reference": "What club does Tony want to join?",
+      "standard_answer": [
+        "The football club.",
+        "The soccer club.",
+        "He wants to join the football club.",
+        "He'd like to join the football club.",
+        "He would love to join the soccer club.",
+        "Tony wants to join the soccer club.",
+        "Tony would like to join the football club."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/11/01/6541e9e714f28.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 36,
+      "model_title": "听选信息",
+      "model_id": "1283019",
+      "model_type": "7",
+      "question_id": "4217994",
+      "prompt_or_reference": "What does Mary like doing?",
+      "standard_answer": [
+        "Dancing.",
+        "She likes dancing.",
+        "She loves dancing.",
+        "Mary enjoys dancing.",
+        "She likes to dance.",
+        "Mary loves to dance.",
+        "She's fond of dancing.",
+        "She is fond of dancing."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "4",
+        "user_score": "3.88"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/11/01/6541ea1d2879e.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 37,
+      "model_title": "回答问题",
+      "model_id": "1283020",
+      "model_type": "8",
+      "question_id": "4217995",
+      "prompt_or_reference": "When did Paul's father give a basketball to Paul?",
+      "standard_answer": [
+        "Last year.",
+        "He gave it to Paul last year.",
+        "He gave a basketball to Paul last year.",
+        "Paul's father gave Paul a basketball last year.",
+        "His dad gave him a basketball last year.",
+        "Paul's daddy gave Paul a basketball last year.",
+        "Paul's father gave a basketball to Paul last year."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "6",
+        "user_score": "5.82"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/652756feab372.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 38,
+      "model_title": "回答问题",
+      "model_id": "1283020",
+      "model_type": "8",
+      "question_id": "4217996",
+      "prompt_or_reference": "Where does Paul play basketball with his classmates?",
+      "standard_answer": [
+        "In his school.",
+        "At school.",
+        "He plays it with them in his school.",
+        "He plays it with his classmates at school.",
+        "He plays basketball with his classmates in his school.",
+        "Paul plays basketball with them at school."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "6",
+        "user_score": "5.82"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/6527570348836.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 39,
+      "model_title": "回答问题",
+      "model_id": "1283020",
+      "model_type": "8",
+      "question_id": "4217997",
+      "prompt_or_reference": "What does Paul often do?",
+      "standard_answer": [
+        "He often takes part in basketball games.",
+        "He often joins in basketball games.",
+        "He often takes part in basketball matches.",
+        "He often joins in basketball matches.",
+        "Paul often takes part in basketball games.",
+        "Paul often joins in basketball games.",
+        "Paul often takes part in basketball matches.",
+        "Paul often joins in basketball matches."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "6",
+        "user_score": "5.82"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/6527570827b21.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 40,
+      "model_title": "信息转述",
+      "model_id": "1283021",
+      "model_type": "6",
+      "question_id": "1283021",
+      "prompt_or_reference": "你的转述可以这样开始：Jane's school held a sports meeting ...",
+      "standard_answer": [
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Her friend Lisa took part in the high jump. Her classmate Maria took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Her friend Lisa took part in the high jump. Her classmate Maria took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. Lisa is her friend. She took part in the high jump. Jane's classmate Maria took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. Lisa is her friend. She took part in the high jump. Jane's classmate Maria took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. She took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. She took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Lisa is her friend and she took part in the high jump. Maria is Jane's classmate and she took part in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Lisa is her friend and she took part in the high jump. Maria is Jane's classmate and she took part in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. Maria joined in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. Her friend Lisa joined in the high jump. Maria is Jane's classmate. Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Lisa is Jane's friend. Lisa took part in the high jump. Jane's classmate Maria joined in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Lisa is Jane's friend. Lisa took part in the high jump. Jane's classmate Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. Jane's friend is Lisa. Lisa joined in the high jump. Maria is Jane's classmate. Maria took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. Jane's friend is Lisa. Lisa joined in the high jump. Maria is Jane's classmate. Maria took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Lisa is Jane's friend and she took part in the high jump. What about Jane's classmate Maria? She took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Lisa is Jane's friend and she took part in the high jump. What about Jane's classmate Maria? She took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the 100-meter race. What about Jane's friend Lisa? She took part in the high jump. Jane's classmate Maria joined in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane joined in the one hundred meter race. What about Jane's friend Lisa? She took part in the high jump. Jane's classmate Maria joined in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the 100-meter race. Her friend Lisa joined in the high jump. Jane's classmate Maria participated in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the one hundred meter race. Her friend Lisa joined in the high jump. Jane's classmate Maria participated in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the 100-meter race. Lisa is her friend and she participated in the high jump. Jane's classmate Maria joined in the 400-meter race. The students were all excited.",
+        "Jane's school held a sports meeting last Friday. Jane participated in the one hundred meter race. Lisa is her friend and she participated in the high jump. Jane's classmate Maria joined in the four hundred meter race. The students were all excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the 100-meter race. Her friend Lisa participated in the high jump. Maria is Jane's classmate. Maria participated in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Jane took part in the one hundred meter race. Her friend Lisa participated in the high jump. Maria is Jane's classmate. Maria participated in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the first event — the 100-meter race. Jane's friend Lisa took part in the high jump at noon. Jane's classmate Maria joined in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the first event the one hundred meter race. Jane's friend Lisa took part in the high jump at noon. Jane's classmate Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane took part in the 100-meter race. Her friend Lisa joined in the high jump at noon. Maria is Jane's classmate. She took part in the 400-meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane took part in the one hundred meter race. Her friend Lisa joined in the high jump at noon. Maria is Jane's classmate. She took part in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the 100-meter race. Lisa is her friend and she took part in the high jump at noon. Maria is Jane's classmate and she took part in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Students arrived at the playground in the morning. Jane joined in the one hundred meter race. Lisa is her friend and she took part in the high jump at noon. Maria is Jane's classmate and she took part in the four hundred meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Students got to the playground in the morning. Jane joined in the 100-meter race. Her friend Lisa joined in the high jump at noon. Jane's classmate Maria joined in the 400-meter race. All of the students felt excited.",
+        "Jane's school held a sports meeting last Friday. Students got to the playground in the morning. Jane joined in the one hundred meter race. Her friend Lisa joined in the high jump at noon. Jane's classmate Maria joined in the four hundred meter race. All of the students felt excited.",
+        "Last Friday, Jane's school held a sports meeting. In the morning, students arrived at the playground. Jane took part in the first event — the 100-meter race. Lisa is Jane's friend. Lisa took part in the high jump at noon. Jane's classmate Maria joined in the 400-meter race. All of the students were excited.",
+        "Last Friday, Jane's school held a sports meeting. In the morning, students arrived at the playground. Jane took part in the first event the one hundred meter race. Lisa is Jane's friend. Lisa took part in the high jump at noon. Jane's classmate Maria joined in the four hundred meter race. All of the students were excited.",
+        "Jane's school held a sports meet last Friday. Students got to the playground in the morning. Jane took part in the first event — the 100-meter race. Her friend Lisa took part in the high jump at noon. The events in the afternoon were the 400-meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the 400-meter race. But she fell down. Although Maria had the courage to finish the race, she was not going to break the record this time. The students were all excited.",
+        "Jane's school held a sports meet last Friday. Students got to the playground in the morning. Jane took part in the first event the one hundred meter race. Her friend Lisa took part in the high jump at noon. The events in the afternoon were the four hundred meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the four hundred meter race. But she fell down. Although Maria had the courage to finish the race, she was not going to break the record this time. The students were all excited.",
+        "Last Friday, Jane's school held a sports meet. In the morning, students got to the playground. Jane joined in the first event — the 100-meter race. Her friend Lisa joined in the high jump at noon. The events in the afternoon were the 400-meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria joined in the 400-meter race. However, Maria fell down. She had the courage to finish the race, but she was not going to break the record this time. All of the students felt excited.",
+        "Last Friday, Jane's school held a sports meet. In the morning, students got to the playground. Jane joined in the first event the one hundred meter race. Her friend Lisa joined in the high jump at noon. The events in the afternoon were the four hundred meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria joined in the four hundred meter race. However, Maria fell down. She had the courage to finish the race, but she was not going to break the record this time. All of the students felt excited.",
+        "Jane's school had a sports meet last Friday. Students arrived at the playground in the morning. Jane took part in the first event — the 100-meter race. At noon, her friend Lisa joined in the high jump. The events in the afternoon were the 400-meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the 400-meter race. But she fell down. She was not going to break the record this time though she had the courage to finish the race. The students were all excited.",
+        "Jane's school had a sports meet last Friday. Students arrived at the playground in the morning. Jane took part in the first event the one hundred meter race. At noon, her friend Lisa joined in the high jump. The events in the afternoon were the four hundred meter race, the bicycle race, the baseball game, the basketball game and the tennis game. Jane's classmate Maria took part in the four hundred meter race. But she fell down. She was not going to break the record this time though she had the courage to finish the race. The students were all excited."
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "7",
+        "user_score": "7"
+      },
+      "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/10/12/65275710c320b.mp3",
+      "word_scores": []
+    },
+    {
+      "index": 41,
+      "model_title": "询问信息",
+      "model_id": "1283022",
+      "model_type": "9",
+      "question_id": "4217998",
+      "prompt_or_reference": "运动会是什么时间结束的？",
+      "standard_answer": [
+        "When did the sports meeting end?",
+        "When was the sports meeting over?",
+        "When did the sports meeting finish?"
       ],
       "student_answer": [],
       "score": {
         "score": "3",
-        "user_score": "2.73"
+        "user_score": "2.92"
+      },
+      "audio": null,
+      "word_scores": []
+    },
+    {
+      "index": 42,
+      "model_title": "询问信息",
+      "model_id": "1283022",
+      "model_type": "9",
+      "question_id": "4217999",
+      "prompt_or_reference": "谁在网球比赛中获得了第一名？",
+      "standard_answer": [
+        "Who won first prize in the tennis game?",
+        "Who got first prize in the tennis game?",
+        "Who won first prize in the tennis match?",
+        "Who got first prize in the tennis match?"
+      ],
+      "student_answer": [],
+      "score": {
+        "score": "3",
+        "user_score": "2.92"
       },
       "audio": null,
       "word_scores": []
     }
   ],
   "section_count": 3,
-  "question_count": 14,
-  "model_report_count": 5
+  "question_count": 42,
+  "model_report_count": 7
 }
