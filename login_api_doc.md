@@ -561,3 +561,76 @@ msg aliases: errlog, error_msg
 | 实名登录 | `/student/User/loginschool` | `nicename` | `pwd` | 是，`schoolName/schoolId` |
 
 两者最终成功返回都落到同一个实体 `LoginEntity`，都从 `data.token` 取登录 token。
+
+## 8. 当前 release 登录交互
+
+`release.py` 复用 `demo.py` 的通用登录函数，当前支持两种登录方式：
+
+```text
+real-name = 实名登录，姓名 + 学校 + 密码
+account   = 账号密码登录，账号 + 密码
+```
+
+不传 `--login-method` 时会先交互选择登录方式。
+
+### 实名登录流程
+
+实名登录交互规则如下：
+
+```text
+1. 先读取 .ekwing_login_cache.json 中的姓名、学校 ID、学校名称、账号分支序号。
+2. 如果缺少姓名，则提示输入姓名。
+3. 如果只有 schoolId、没有 schoolName，则提示输入学校关键字，通过 /student/user/searchschool 搜索并匹配该 schoolId。
+4. 如果 schoolId/schoolName 任意缺失，则提示输入学校关键字，展示搜索结果，由用户选择学校。
+5. 选择学校后自动填充 schoolId 和 schoolName。
+6. 如果没有密码，则提示输入密码。
+7. 询问是否保存登录信息；只记录用户选择，登录成功后才真正写入 .ekwing_login_cache.json。
+8. 调用 /student/User/loginschool。
+9. release.py 登录成功后，才继续询问考试来源、Basic 接口、作业选择等答案相关问题。
+```
+
+命令行也可以直接指定学校搜索：
+
+```bash
+python release.py --login-method real-name --name 张三 --school-keyword 吉利中学
+python release.py --name 张三 --school-keyword 吉利中学
+python release.py --name 张三 --school-id 23163 --school-keyword 吉利中学
+python release.py --name 张三 --school-keyword 吉利中学 --school-choose-index 0
+```
+
+### 账号密码登录流程
+
+账号密码登录不会搜索学校，也不会要求姓名：
+
+```text
+1. 先读取 .ekwing_login_cache.json 中的账号。
+2. 如果缺少账号，则提示输入账号。
+3. 如果缺少密码，则提示输入密码。
+4. 询问是否保存登录信息；只记录用户选择，登录成功后才真正写入 .ekwing_login_cache.json。
+5. 调用 /student/User/login。
+6. release.py 登录成功后，才继续询问考试来源、Basic 接口、作业选择等答案相关问题。
+```
+
+命令行示例：
+
+```bash
+python release.py --login-method account --username your_account
+python release.py --login-method account --username your_account --password 123456
+```
+
+缓存文件按当前登录方式保存对应身份信息：
+
+```text
+login_method
+
+账号密码登录：
+username
+
+实名登录：
+name
+school_name
+school_id
+choose_index
+```
+
+不会保存明文密码。

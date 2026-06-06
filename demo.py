@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Real-name login demo for Ekwing Student 5.2.7.
+"""Login demo for Ekwing Student 5.2.7.
 
 Usage:
     python demo.py
     python demo.py --name 张三 --password 123456 --school-name 某某学校 --school-id 12345
+    python demo.py --login-method account --username student_account --password 123456
 """
 
 from __future__ import annotations
@@ -26,8 +27,12 @@ except ImportError:  # pragma: no cover - only used when dependency is missing
 BASE_URL = "https://mapi.ekwing.com"
 LOGIN_SCHOOL_PATH = "/student/User/loginschool"
 LOGIN_ACCOUNT_PATH = "/student/User/login"
+SEARCH_SCHOOL_PATH = "/student/user/searchschool"
 LOGIN_CACHE_PATH = Path(__file__).with_name(".ekwing_login_cache.json")
-LOGIN_CACHE_KEYS = ("name", "school_name", "school_id", "choose_index")
+LOGIN_METHOD_REAL_NAME = "real-name"
+LOGIN_METHOD_ACCOUNT = "account"
+REAL_NAME_LOGIN_CACHE_KEYS = ("name", "school_name", "school_id", "choose_index")
+ACCOUNT_LOGIN_CACHE_KEYS = ("username",)
 
 
 def md5_hex(text: str) -> str:
@@ -109,6 +114,13 @@ def login_by_account(
     return normalize_login_result(body)
 
 
+def login_by_username_password(args: argparse.Namespace) -> dict[str, Any]:
+    if not getattr(args, "username", None):
+        args.username = prompt_required("账号")
+    password = args.password or getpass.getpass("密码：")
+    return login_by_account(args.username, md5_hex(password), args)
+
+
 def choose_overname(overname: list[dict[str, Any]], choose_index: int | None) -> dict[str, Any]:
     if not overname:
         raise RuntimeError("实名登录返回同名分支，但 overname 为空")
@@ -142,6 +154,9 @@ def choose_overname(overname: list[dict[str, Any]], choose_index: int | None) ->
 
 
 def login_by_real_name(args: argparse.Namespace) -> dict[str, Any]:
+    if not args.name:
+        args.name = prompt_required("姓名")
+    ensure_school_info(args)
     password = args.password or getpass.getpass("密码：")
     pwd_md5 = md5_hex(password)
 
@@ -170,6 +185,15 @@ def login_by_real_name(args: argparse.Namespace) -> dict[str, Any]:
     raise RuntimeError(error_message(body))
 
 
+def login(args: argparse.Namespace) -> dict[str, Any]:
+    method = getattr(args, "login_method", None) or LOGIN_METHOD_REAL_NAME
+    if method == LOGIN_METHOD_ACCOUNT:
+        return login_by_username_password(args)
+    if method == LOGIN_METHOD_REAL_NAME:
+        return login_by_real_name(args)
+    raise RuntimeError(f"未知登录方式：{method}")
+
+
 def load_login_cache() -> dict[str, Any]:
     try:
         data = json.loads(LOGIN_CACHE_PATH.read_text(encoding="utf-8"))
@@ -179,9 +203,19 @@ def load_login_cache() -> dict[str, Any]:
 
 
 def save_login_cache(args: argparse.Namespace) -> None:
+    method = getattr(args, "login_method", LOGIN_METHOD_REAL_NAME)
+    keys = ACCOUNT_LOGIN_CACHE_KEYS if method == LOGIN_METHOD_ACCOUNT else REAL_NAME_LOGIN_CACHE_KEYS
     data = {
-        key: getattr(args, key, None)
-        for key in LOGIN_CACHE_KEYS
+        "login_method": method,
+        **{
+            key: getattr(args, key, None)
+            for key in keys
+            if getattr(args, key, None) not in (None, "")
+        },
+    }
+    data = {
+        key: value
+        for key, value in data.items()
         if getattr(args, key, None) not in (None, "")
     }
     if not data:
@@ -192,12 +226,118 @@ def save_login_cache(args: argparse.Namespace) -> None:
     )
 
 
+def save_login_cache_interactive(args: argparse.Namespace) -> None:
+    save_login = getattr(args, "save_login", None)
+    if save_login is None:
+        save_login = prompt_yes_no("是否保存本次登录信息（不保存密码）", default=False)
+    if save_login:
+        save_login_cache(args)
+
+
+def search_school(keyword: str, page: int, args: argparse.Namespace) -> list[dict[str, Any]]:
+    payload = common_params(args)
+    payload.update({"key": keyword, "page": str(page)})
+    body = post_form(SEARCH_SCHOOL_PATH, payload, args.timeout)
+    if body.get("status") != 0:
+        raise RuntimeError(error_message(body))
+    return [normalize_school_item(item) for item in extract_list(body.get("data") or [])]
+
+
+def extract_list(data_obj: Any) -> list[dict[str, Any]]:
+    if isinstance(data_obj, list):
+        return [item for item in data_obj if isinstance(item, dict)]
+    if isinstance(data_obj, dict):
+        for key in ("list", "rows", "data"):
+            value = data_obj.get(key)
+            if isinstance(value, list):
+                return [item for item in value if isinstance(item, dict)]
+    return []
+
+
+def normalize_school_item(item: dict[str, Any]) -> dict[str, Any]:
+    province = item.get("province_name") or ""
+    city = item.get("city_name") or ""
+    county = item.get("county_name") or ""
+    zone = "-".join(part for part in (province, city, county) if part)
+    return {
+        "school_id": first_non_empty(item.get("school_id"), item.get("id")),
+        "school_name": str(first_non_empty(item.get("school_name"), item.get("name")) or "").strip(),
+        "zone": zone or item.get("zone") or "",
+        "raw": item,
+    }
+
+
+def first_non_empty(*values: Any) -> str | None:
+    for value in values:
+        if value not in (None, ""):
+            return str(value)
+    return None
+
+
+def choose_school(schools: list[dict[str, Any]], choose_index: int | None = None) -> dict[str, Any]:
+    if not schools:
+        raise RuntimeError("未搜索到学校")
+    for index, school in enumerate(schools):
+        zone = f" zone={school.get('zone')}" if school.get("zone") else ""
+        print(f"[{index}] id={school.get('school_id')} name={school.get('school_name')}{zone}", file=sys.stderr)
+    if choose_index is not None:
+        if 0 <= choose_index < len(schools):
+            return schools[choose_index]
+        raise RuntimeError(f"--school-choose-index 超出范围：0..{len(schools) - 1}")
+    while True:
+        raw = input(f"请选择学校序号 0..{len(schools) - 1}：").strip()
+        try:
+            selected_index = int(raw)
+        except ValueError:
+            print("请输入数字序号。", file=sys.stderr)
+            continue
+        if 0 <= selected_index < len(schools):
+            return schools[selected_index]
+        print("序号超出范围。", file=sys.stderr)
+
+
+def ensure_school_info(args: argparse.Namespace) -> None:
+    if args.school_id and args.school_name:
+        return
+
+    if args.school_id and not args.school_name:
+        keyword = args.school_keyword or prompt_required("已输入学校 ID，请输入学校关键字用于反查学校名称")
+        schools = search_school(keyword, args.school_search_page, args)
+        matched = [school for school in schools if str(school.get("school_id")) == str(args.school_id)]
+        if not matched:
+            print("搜索结果中没有匹配该学校 ID，请从搜索结果中手动选择：", file=sys.stderr)
+            matched = schools
+        selected = choose_school(matched, args.school_choose_index)
+        args.school_id = str(selected["school_id"])
+        args.school_name = selected["school_name"]
+        return
+
+    if not args.school_id or not args.school_name:
+        keyword = args.school_keyword or prompt_required("学校关键字")
+        schools = search_school(keyword, args.school_search_page, args)
+        selected = choose_school(schools, args.school_choose_index)
+        args.school_id = str(selected["school_id"])
+        args.school_name = selected["school_name"]
+
+
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="翼课学生 5.2.7 实名登录获取 token demo")
+    parser = argparse.ArgumentParser(description="翼课学生 5.2.7 登录获取 token demo")
+    parser.add_argument(
+        "--login-method",
+        choices=(LOGIN_METHOD_REAL_NAME, LOGIN_METHOD_ACCOUNT),
+        default=None,
+        help="登录方式：real-name 为实名登录，account 为账号密码登录；不传则交互选择",
+    )
+    parser.add_argument("--username", help="账号密码登录的账号，对应 username；不传则交互式输入")
     parser.add_argument("--name", help="学生姓名，对应 nicename；不传则交互式输入")
     parser.add_argument("--school-name", help="学校名称，对应 schoolName；不传则交互式输入")
     parser.add_argument("--school-id", help="学校 ID，对应 schoolId；不传则交互式输入")
+    parser.add_argument("--school-keyword", help="学校搜索关键字；未提供学校名称时用于搜索选择")
+    parser.add_argument("--school-search-page", type=int, default=1, help="学校搜索页码，默认 1")
+    parser.add_argument("--school-choose-index", type=int, help="学校搜索结果选择序号；不传则交互选择")
     parser.add_argument("--password", help="明文密码；不传则交互式输入")
+    parser.add_argument("--save-login", dest="save_login", action="store_true", default=None, help="登录成功后保存登录信息（不保存密码）")
+    parser.add_argument("--no-save-login", dest="save_login", action="store_false", help="登录成功后不保存登录信息")
     parser.add_argument("--choose-index", type=int, help="同名账号分支选择序号；不传则交互选择")
     parser.add_argument("--timeout", type=int, default=15, help="请求超时时间，默认 15 秒")
     parser.add_argument("--api-version", default="5.1.0", help="公共参数 v，默认 5.1.0")
@@ -217,26 +357,75 @@ def prompt_required(label: str) -> str:
         print(f"{label}不能为空。", file=sys.stderr)
 
 
+def prompt_yes_no(label: str, default: bool = False) -> bool:
+    suffix = "Y/n" if default else "y/N"
+    while True:
+        raw = input(f"{label}（{suffix}）：").strip().lower()
+        if not raw:
+            return default
+        if raw in {"y", "yes", "1", "true"}:
+            return True
+        if raw in {"n", "no", "0", "false"}:
+            return False
+        print("请输入 y 或 n。", file=sys.stderr)
+
+
 def fill_interactive_args(args: argparse.Namespace) -> argparse.Namespace:
     cache = load_login_cache()
-    for key in LOGIN_CACHE_KEYS:
-        if getattr(args, key, None) in (None, "") and cache.get(key) not in (None, ""):
+    cached_method = cache.get("login_method")
+    if getattr(args, "login_method", None) is None and cached_method in {LOGIN_METHOD_REAL_NAME, LOGIN_METHOD_ACCOUNT}:
+        args.login_method = cached_method
+    if getattr(args, "login_method", None) is None:
+        args.login_method = prompt_login_method()
+    if args.login_method == LOGIN_METHOD_ACCOUNT:
+        apply_login_cache(args, cache, ACCOUNT_LOGIN_CACHE_KEYS)
+        if not args.username:
+            args.username = prompt_required("账号")
+    elif args.login_method == LOGIN_METHOD_REAL_NAME:
+        apply_login_cache(args, cache, REAL_NAME_LOGIN_CACHE_KEYS)
+        if not args.name:
+            args.name = prompt_required("姓名")
+        ensure_school_info(args)
+    else:
+        raise RuntimeError(f"未知登录方式：{args.login_method}")
+    if not args.password:
+        args.password = getpass.getpass("密码：")
+    if getattr(args, "save_login", None) is None:
+        args.save_login = prompt_yes_no("是否保存本次登录信息（不保存密码）", default=False)
+    return args
+
+
+def apply_login_cache(args: argparse.Namespace, cache: dict[str, Any], keys: tuple[str, ...]) -> None:
+    for key in keys:
+        if hasattr(args, key) and getattr(args, key, None) in (None, "") and cache.get(key) not in (None, ""):
             setattr(args, key, cache[key])
 
-    if not args.name:
-        args.name = prompt_required("姓名")
-    if not args.school_name:
-        args.school_name = prompt_required("学校名称")
-    if not args.school_id:
-        args.school_id = prompt_required("学校 ID")
-    return args
+
+def prompt_login_method() -> str:
+    print("请选择登录方式：", file=sys.stderr)
+    choices = (
+        (LOGIN_METHOD_REAL_NAME, "实名登录（姓名 + 学校 + 密码）"),
+        (LOGIN_METHOD_ACCOUNT, "账号密码登录（账号 + 密码）"),
+    )
+    for index, (_, label) in enumerate(choices, start=1):
+        print(f"[{index}] {label}", file=sys.stderr)
+    while True:
+        raw = input("请输入 1..2：").strip()
+        try:
+            selected = int(raw)
+        except ValueError:
+            print("请输入数字序号。", file=sys.stderr)
+            continue
+        if 1 <= selected <= len(choices):
+            return choices[selected - 1][0]
+        print("序号超出范围。", file=sys.stderr)
 
 
 def main() -> int:
     args = fill_interactive_args(parse_args())
     try:
-        result = login_by_real_name(args)
-        save_login_cache(args)
+        result = login(args)
+        save_login_cache_interactive(args)
     except Exception as exc:
         print(f"登录失败：{exc}", file=sys.stderr)
         return 1

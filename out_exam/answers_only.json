@@ -2,302 +2,388 @@
   {
     "index": 1,
     "model_title": "模仿朗读",
-    "model_id": "1277626",
+    "model_id": "1321272",
     "model_type": "1",
-    "question_id": "1277626",
-    "prompt_or_reference": "We still celebrate Thanksgiving today with a traditional dinner. The kitchen is always the most crowded room in our house because we all help prepare the food. We lay the table, and then before we begin dinner, my father gives thanks for the food, so we remember why we celebrate the festival. We usually eat too much, but it is only once a year! We often talk a lot and tell stories after dinner as well. When it is all over, everyone helps wash the dishes. The festival is a very busy time for travel when friends and families come together to celebrate.",
+    "question_id": "1321272",
+    "prompt_or_reference": "Foshan is a city in Guangdong Province. It is a wonderful place to live and visit. Foshan is famous for its long history and rich culture. It is the birthplace of many traditional Chinese arts and Chinese kung fu. People here also love Guangdong opera. The opera is full of interesting stories. What's more, the food in Foshan is amazing. You can taste delicious morning tea and traditional dishes here. There are many lovely parks in Foshan. People like to do exercise and relax there. Foshan is like a big and warm family with friendly people. It is truly a special city!",
     "standard_answer": [
-      "We still celebrate Thanksgiving today with a traditional dinner. The kitchen is always the most crowded room in our house because we all help prepare the food. We lay the table, and then before we begin dinner, my father gives thanks for the food, so we remember why we celebrate the festival. We usually eat too much, but it is only once a year! We often talk a lot and tell stories after dinner as well. When it is all over, everyone helps wash the dishes. The festival is a very busy time for travel when friends and families come together to celebrate."
+      "Foshan is a city in Guangdong Province. It is a wonderful place to live and visit. Foshan is famous for its long history and rich culture. It is the birthplace of many traditional Chinese arts and Chinese kung fu. People here also love Guangdong opera. The opera is full of interesting stories. What's more, the food in Foshan is amazing. You can taste delicious morning tea and traditional dishes here. There are many lovely parks in Foshan. People like to do exercise and relax there. Foshan is like a big and warm family with friendly people. It is truly a special city!"
     ],
     "student_answer": [],
     "score": {
       "score": "6",
-      "user_score": "0"
+      "user_score": "5.32"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2b59de626.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e83a44ea.mp3",
     "word_scores": []
   },
   {
     "index": 2,
     "model_title": "听选信息",
-    "model_id": "1277627",
+    "model_id": "1321273",
     "model_type": "7",
-    "question_id": "4202933",
-    "prompt_or_reference": "What will they buy for their mother?",
+    "question_id": "4363066",
+    "prompt_or_reference": "What does Lily want to learn from Master Rao Baolian?",
     "standard_answer": [
-      "A watch.",
-      "They'll buy a watch.",
-      "They will buy a watch.",
-      "They're going to buy a watch.",
-      "They are going to buy a watch.",
-      "They'll buy a watch for her.",
-      "They will buy a watch for their mom.",
-      "They're going to buy their mum a watch.",
-      "They are going to buy a watch for their mommy.",
-      "They will buy their mother a watch."
+      "Paper cutting.",
+      "Lily wants to learn paper cutting from her.",
+      "She wants to learn paper cutting from Master Rao Baolian.",
+      "Lily wants to learn paper cutting from Master Rao Baolian.",
+      "Lily would like to learn paper cutting from her.",
+      "Lily would love to learn paper cutting from her.",
+      "She'd like to learn paper cutting from Master Rao Baolian.",
+      "She would like to learn paper cutting from Master Rao Baolian.",
+      "Lily would like to learn paper cutting from Master Rao Baolian.",
+      "Lily would love to learn paper cutting from Master Rao Baolian."
     ],
     "student_answer": [],
     "score": {
       "score": "9",
-      "user_score": "0"
+      "user_score": "7.99"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2b8d40750.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e9156644.mp3",
     "word_scores": []
   },
   {
     "index": 3,
     "model_title": "听选信息",
-    "model_id": "1277627",
+    "model_id": "1321273",
     "model_type": "7",
-    "question_id": "4202934",
-    "prompt_or_reference": "Which restaurant have they chosen?",
+    "question_id": "4363067",
+    "prompt_or_reference": "How does Lily feel about the news?",
     "standard_answer": [
-      "A Chinese restaurant.",
-      "They've chosen a Chinese restaurant.",
-      "They have chosen a Chinese restaurant."
+      "Excited.",
+      "She feels excited about it.",
+      "Lily feels excited about it.",
+      "She feels excited about the news.",
+      "Lily feels excited about the news.",
+      "She's excited about it.",
+      "Lily is excited about it.",
+      "She is excited about the news.",
+      "Lily is excited about the news."
     ],
     "student_answer": [],
     "score": {
       "score": "9",
-      "user_score": "0"
+      "user_score": "7.99"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2b962a873.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37e98223db.mp3",
     "word_scores": []
   },
   {
     "index": 4,
     "model_title": "听选信息",
-    "model_id": "1277627",
+    "model_id": "1321273",
     "model_type": "7",
-    "question_id": "4202935",
-    "prompt_or_reference": "Who does the woman want to buy a gift?",
+    "question_id": "4363068",
+    "prompt_or_reference": "What does Max like doing during the Dragon Boat Festival?",
     "standard_answer": [
-      "Her father.",
-      "Her dad.",
-      "Her daddy.",
-      "She wants to buy it for her father.",
-      "She wants to buy her dad a gift.",
-      "She'd like to buy her father a present.",
-      "The woman would like to buy her daddy a present.",
-      "The woman would love to buy a present for her father."
+      "Watching dragon boat races.",
+      "He likes watching dragon boat races.",
+      "Max likes watching dragon boat races.",
+      "He loves watching dragon boat races.",
+      "Max enjoys watching dragon boat races.",
+      "He likes watching dragon boat races during the Dragon Boat Festival.",
+      "Max likes watching dragon boat races during the Dragon Boat Festival.",
+      "He likes to watch dragon boat races during the Dragon Boat Festival.",
+      "Max loves to watch dragon boat races during the Dragon Boat Festival."
     ],
     "student_answer": [],
     "score": {
       "score": "9",
-      "user_score": "0"
+      "user_score": "7.99"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2bba5e86e.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ea734146.mp3",
     "word_scores": []
   },
   {
     "index": 5,
     "model_title": "听选信息",
-    "model_id": "1277627",
+    "model_id": "1321273",
     "model_type": "7",
-    "question_id": "4202936",
-    "prompt_or_reference": "How much is the yellow wallet?",
+    "question_id": "4363069",
+    "prompt_or_reference": "When will Max go to the zoo?",
     "standard_answer": [
-      "Twenty-eight dollars.",
-      "It's twenty-eight dollars.",
-      "It is twenty-eight dollars.",
-      "The wallet is twenty-eight dollars.",
-      "The yellow wallet is twenty-eight dollars.",
-      "It costs twenty-eight dollars."
+      "On Sunday morning.",
+      "He'll go there on Sunday morning.",
+      "He will go there on Sunday morning.",
+      "Max will go there on Sunday morning.",
+      "He'll go to the zoo on Sunday morning.",
+      "He will go to the zoo on Sunday morning.",
+      "Max will go to the zoo on Sunday morning.",
+      "He's going there on Sunday morning.",
+      "Max is going there on Sunday morning.",
+      "He is going to the zoo on Sunday morning.",
+      "Max is going to the zoo on Sunday morning."
     ],
     "student_answer": [],
     "score": {
       "score": "9",
-      "user_score": "0"
+      "user_score": "7.99"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2bdd6de66.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37eae18135.mp3",
     "word_scores": []
   },
   {
     "index": 6,
     "model_title": "听选信息",
-    "model_id": "1277627",
+    "model_id": "1321273",
     "model_type": "7",
-    "question_id": "4202937",
-    "prompt_or_reference": "When is Tom going to have a party?",
+    "question_id": "4363070",
+    "prompt_or_reference": "What does Vince want to show in their video?",
     "standard_answer": [
-      "Next Tuesday afternoon.",
-      "He's going to have it next Tuesday afternoon.",
-      "He is going to have a party next Tuesday afternoon.",
-      "He'll hold it next Tuesday afternoon.",
-      "He will hold a party next Tuesday afternoon.",
-      "Tom is going to have a party next Tuesday afternoon.",
-      "Tom will hold a party next Tuesday afternoon."
+      "The Spring Festival flower market in Foshan.",
+      "He wants to show the Spring Festival flower market in Foshan.",
+      "Vince wants to show the Spring Festival flower market in Foshan.",
+      "He wants to show the Spring Festival flower market in Foshan in it.",
+      "Vince wants to show the Spring Festival flower market in Foshan in it.",
+      "He wants to show the Spring Festival flower market in Foshan in their video.",
+      "Vince wants to show the Spring Festival flower market in Foshan in their video.",
+      "He'd like to show the Spring Festival flower market in Foshan.",
+      "He'd love to show the Spring Festival flower market in Foshan.",
+      "He would like to show the Spring Festival flower market in Foshan in it.",
+      "He would love to show the Spring Festival flower market in Foshan in it.",
+      "Vince would like to show the Spring Festival flower market in Foshan in their video.",
+      "Vince would love to show the Spring Festival flower market in Foshan in their video."
     ],
     "student_answer": [],
     "score": {
       "score": "9",
-      "user_score": "0"
+      "user_score": "7.99"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2bf62f2d4.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ebbc7968.mp3",
     "word_scores": []
   },
   {
     "index": 7,
     "model_title": "听选信息",
-    "model_id": "1277627",
+    "model_id": "1321273",
     "model_type": "7",
-    "question_id": "4202938",
-    "prompt_or_reference": "Where may Eric be from?",
+    "question_id": "4363071",
+    "prompt_or_reference": "What will the girl bring tomorrow?",
     "standard_answer": [
-      "America.",
-      "The US.",
-      "The USA.",
-      "The United States.",
-      "The United States of America.",
-      "He may be from America.",
-      "He may come from the US.",
-      "Eric may be from the USA.",
-      "He is probably from the United States.",
-      "He's probably from the United States of America.",
-      "Perhaps he comes from the US.",
-      "Maybe Eric is from America."
+      "A camera.",
+      "She'll bring a camera.",
+      "She will bring a camera tomorrow.",
+      "The girl will bring a camera.",
+      "The girl will bring a camera tomorrow.",
+      "She's going to bring a camera.",
+      "She is going to bring a camera tomorrow.",
+      "The girl is going to bring a camera.",
+      "The girl is going to bring a camera tomorrow."
     ],
     "student_answer": [],
     "score": {
       "score": "9",
-      "user_score": "0"
+      "user_score": "7.99"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2c0268fb7.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ec2c1ab6.mp3",
     "word_scores": []
   },
   {
     "index": 8,
     "model_title": "回答问题",
-    "model_id": "1277628",
+    "model_id": "1321274",
     "model_type": "8",
-    "question_id": "4202939",
-    "prompt_or_reference": "What holiday was last Sunday?",
+    "question_id": "4363072",
+    "prompt_or_reference": "Where did Mike visit yesterday?",
     "standard_answer": [
-      "The National Day.",
-      "It was the National Day.",
-      "Last Sunday was the National Day.",
-      "It was the National Day last Sunday."
+      "A company in Foshan.",
+      "He visited a company in Foshan.",
+      "Mike visited a company in Foshan.",
+      "He visited a company in Foshan yesterday.",
+      "Mike visited a company in Foshan yesterday.",
+      "He paid a visit to a company in Foshan yesterday.",
+      "Mike paid a visit to a company in Foshan yesterday."
     ],
     "student_answer": [],
     "score": {
       "score": "6",
-      "user_score": "0"
+      "user_score": "5.24"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2d5111d6d.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ed31b3ee.mp3",
     "word_scores": []
   },
   {
     "index": 9,
     "model_title": "回答问题",
-    "model_id": "1277628",
+    "model_id": "1321274",
     "model_type": "8",
-    "question_id": "4202940",
-    "prompt_or_reference": "How many people went to Tian'anmen Square?",
+    "question_id": "4363073",
+    "prompt_or_reference": "What did Mike see there?",
     "standard_answer": [
-      "Three.",
-      "Three people.",
-      "Three people went there.",
-      "Three people went to Tian'anmen Square."
+      "Many robots.",
+      "Lots of robots.",
+      "A lot of robots.",
+      "He saw many robots.",
+      "Mike saw many robots.",
+      "He saw lots of robots.",
+      "Mike saw a lot of robots.",
+      "He saw many robots there.",
+      "Mike saw many robots there.",
+      "He saw lots of robots there.",
+      "Mike saw a lot of robots there.",
+      "He saw many robots in the company.",
+      "Mike saw many robots in the company."
     ],
     "student_answer": [],
     "score": {
       "score": "6",
-      "user_score": "0"
+      "user_score": "5.24"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2d4b3be25.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ed9a3b26.mp3",
     "word_scores": []
   },
   {
     "index": 10,
     "model_title": "回答问题",
-    "model_id": "1277628",
+    "model_id": "1321274",
     "model_type": "8",
-    "question_id": "4202941",
-    "prompt_or_reference": "What did Lisa's aunt do?",
+    "question_id": "4363074",
+    "prompt_or_reference": "Who were controlling things?",
     "standard_answer": [
-      "She went shopping.",
-      "She shopped.",
-      "She did some shopping.",
-      "Her aunt went shopping.",
-      "Her aunt shopped.",
-      "Her aunt did some shopping.",
-      "Lisa's aunt went shopping.",
-      "Lisa's aunt shopped.",
-      "Lisa's aunt did some shopping."
+      "The human workers.",
+      "The human workers were controlling things."
     ],
     "student_answer": [],
     "score": {
       "score": "6",
-      "user_score": "0"
+      "user_score": "5.24"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2d455e247.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ee088b04.mp3",
     "word_scores": []
   },
   {
     "index": 11,
     "model_title": "回答问题",
-    "model_id": "1277628",
+    "model_id": "1321274",
     "model_type": "8",
-    "question_id": "4202942",
-    "prompt_or_reference": "Where did Lisa's cousin go?",
+    "question_id": "4363075",
+    "prompt_or_reference": "What did Mike think of this experience?",
     "standard_answer": [
-      "To a bookstore.",
-      "To a bookshop.",
-      "He went to a bookstore.",
-      "He went to a bookshop.",
-      "Her cousin went to a bookstore.",
-      "Her cousin went to a bookshop.",
-      "Lisa's cousin went to a bookstore.",
-      "Lisa's cousin went to a bookshop."
+      "Unforgettable.",
+      "It was unforgettable.",
+      "This experience was unforgettable.",
+      "It was an unforgettable experience.",
+      "He thought it was unforgettable.",
+      "Mike thought it was unforgettable.",
+      "He thought this experience was unforgettable.",
+      "Mike thought this experience was unforgettable.",
+      "He thought it was an unforgettable experience.",
+      "Mike thought it was an unforgettable experience.",
+      "In his opinion, it was unforgettable.",
+      "In Mike's opinion, it was unforgettable.",
+      "In his opinion, this experience was unforgettable.",
+      "In Mike's opinion, this experience was unforgettable.",
+      "In his view, it was an unforgettable experience.",
+      "In Mike's view, it was an unforgettable experience."
     ],
     "student_answer": [],
     "score": {
       "score": "6",
-      "user_score": "0"
+      "user_score": "5.24"
     },
-    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2023/08/15/64db2d3b5eb85.mp3",
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37ee772b45.mp3",
     "word_scores": []
   },
   {
     "index": 12,
-    "model_title": "询问信息",
-    "model_id": "1277630",
-    "model_type": "9",
-    "question_id": "4202943",
-    "prompt_or_reference": "你们重阳节那天午餐吃的什么？",
+    "model_title": "信息转述",
+    "model_id": "1321275",
+    "model_type": "6",
+    "question_id": "1321275",
+    "prompt_or_reference": "你可以这样开始：Foshan Museum needs volunteers for a new show ...",
     "standard_answer": [
-      "What did you eat for lunch on the Double Ninth Festival?",
-      "What did you have for lunch on the Double Ninth Festival?",
-      "What food did you eat for lunch on the Double Ninth Festival?",
-      "What food did you have for lunch on the Double Ninth Festival?"
+      "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we would love to invite you to be here. You need to have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 am on Saturday at the museum.",
+      "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we would love to invite you to be here. You need to have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten am on Saturday at the museum.",
+      "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum.",
+      "Foshan Museum needs volunteers for a new show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan. The volunteer should have volunteering experience. The volunteer should speak both Chinese and English well. And the volunteer should be brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan. The volunteer should have volunteering experience. The volunteer should speak both Chinese and English well. And the volunteer should be brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. The volunteer needs to do well in speaking Chinese and English. And the volunteer needs to be not only brave but also confident. The interview is going to be at 10:00 on Saturday morning in the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. The volunteer needs to do well in speaking Chinese and English. And the volunteer needs to be not only brave but also confident. The interview is going to be at ten o'clock on Saturday morning in the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. The volunteer needs to be good at speaking both Chinese and English. The volunteer needs to be brave and confident. The interview will be at 10 am on Saturday. And it will be at the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. The volunteer needs to be good at speaking both Chinese and English. The volunteer needs to be brave and confident. The interview will be at ten am on Saturday. And it will be at the museum.",
+      "Foshan Museum needs volunteers for a new show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum.",
+      "Foshan Museum needs volunteers for a new show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum.",
+      "Foshan Museum needs volunteers for a new show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at 10:00 on Saturday morning. And it will be at the museum.",
+      "Foshan Museum needs volunteers for a new show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at ten o'clock on Saturday morning. And it will be at the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a great chance for you. The interview is going to be at 10 am on Saturday at the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan and have volunteering experience. If you are good at speaking both Chinese and English and if you are brave and confident, this is a great chance for you. The interview is going to be at ten am on Saturday at the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. This is a wonderful chance for you if you are good at speaking Chinese and English and if you are brave and confident. The interview will be at 10 on Saturday morning at the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer needs to be a middle school student from Foshan. The volunteer needs to have volunteering experience. This is a wonderful chance for you if you are good at speaking Chinese and English and if you are brave and confident. The interview will be at ten on Saturday morning at the museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan and have volunteering experience. This is a great chance for you if you can speak both Chinese and English well and if you are brave and confident. The interview will be at 10 am on Saturday at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer should be a middle school student from Foshan and have volunteering experience. This is a great chance for you if you can speak both Chinese and English well and if you are brave and confident. The interview will be at ten am on Saturday at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer ought to be a middle school student from Foshan. And the volunteer ought to have volunteering experience. If you do well in speaking Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview is going to be at 10:00 on Saturday morning. And it is going to be at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. The volunteer ought to be a middle school student from Foshan. And the volunteer ought to have volunteering experience. If you do well in speaking Chinese and English and if you are brave and confident, this is a wonderful chance for you. The interview is going to be at ten o'clock on Saturday morning. And it is going to be at Foshan Museum.",
+      "Foshan Museum needs volunteers for a new show. First, you should be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you should be good at speaking both Chinese and English. Also, you should be brave and confident. The interview will be at 10 am on Saturday at the museum. Don't miss the chance!",
+      "Foshan Museum needs volunteers for a new show. First, you should be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you should be good at speaking both Chinese and English. Also, you should be brave and confident. The interview will be at ten am on Saturday at the museum. Don't miss the chance!",
+      "Foshan Museum needs volunteers for a new show. First, you need to be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you need to speak both Chinese and English well. What's more, you need to be brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum. We hope you won't miss the chance.",
+      "Foshan Museum needs volunteers for a new show. First, you need to be a middle school student from Foshan. Second, you need to have volunteering experience. Third, you need to speak both Chinese and English well. What's more, you need to be brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum. We hope you won't miss the chance.",
+      "Foshan Museum needs volunteers for a new show. You need to be a middle school student from Foshan. You need to have volunteering experience. You need to do well in speaking both Chinese and English. And you need to be not only brave but also confident. The interview is going to be at 10 on Saturday morning in the museum. We're looking forward to seeing you!",
+      "Foshan Museum needs volunteers for a new show. You need to be a middle school student from Foshan. You need to have volunteering experience. You need to do well in speaking both Chinese and English. And you need to be not only brave but also confident. The interview is going to be at ten on Saturday morning in the museum. We're looking forward to seeing you!",
+      "Foshan Museum needs volunteers for a new show. You are supposed to be a middle school student from Foshan and have volunteering experience. You are supposed to be good at speaking both Chinese and English. You are supposed to be a brave and confident person. The interview will be at 10 am on Saturday. And it will be at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
+      "Foshan Museum needs volunteers for a new show. You are supposed to be a middle school student from Foshan and have volunteering experience. You are supposed to be good at speaking both Chinese and English. You are supposed to be a brave and confident person. The interview will be at ten am on Saturday. And it will be at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
+      "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum. We hope you won't miss this chance.",
+      "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. If you are a middle school student from Foshan, we'd like to invite you to work here. You need to have volunteering experience. If you can speak Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum. We hope you won't miss this chance.",
+      "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at 10 am on Saturday at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
+      "There is a show about the changes in Foshan at Foshan Museum. We are looking for volunteers for the show. We would love to invite you to be here if you are a middle school student from Foshan. You need to have volunteering experience. This is a wonderful chance for you if you are good at speaking both Chinese and English and if you are brave and confident. The interview is going to be at ten am on Saturday at Foshan Museum. We hope you won't miss the chance. We're looking forward to seeing you!",
+      "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at 10 on Saturday morning at the museum. Don't miss this chance. We are looking forward to seeing you!",
+      "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. We want to invite you to work here if you are a middle school student from Foshan. You need to have volunteering experience. If you are able to speak both Chinese and English well and if you are brave and confident, this is a wonderful chance for you. The interview will be at ten on Saturday morning at the museum. Don't miss this chance. We are looking forward to seeing you!",
+      "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at 10:00 on Saturday morning. And it will be at the museum. We hope you won't miss this chance. We are looking forward to meeting you!",
+      "We warmly welcome you to join us at Foshan Museum. There is a show about the changes in Foshan. We are looking for volunteers for this show. If you're a middle school student from Foshan, we would like to invite you to be here. You need to have volunteering experience. This is a great chance for you if you do well in speaking both Chinese and English and if you're brave and confident. The interview will be at ten o'clock on Saturday morning. And it will be at the museum. We hope you won't miss this chance. We are looking forward to meeting you!"
     ],
     "student_answer": [],
     "score": {
-      "score": "3",
-      "user_score": "0"
+      "score": "6",
+      "user_score": "5.68"
     },
-    "audio": null,
+    "audio": "https://ekwing-resource-1320855981.cos.ap-shanghai.myqcloud.com/acpf/data/upload/bt/2025/04/07/67f37eefc843d.mp3",
     "word_scores": []
   },
   {
     "index": 13,
     "model_title": "询问信息",
-    "model_id": "1277630",
+    "model_id": "1321276",
     "model_type": "9",
-    "question_id": "4202944",
-    "prompt_or_reference": "你们几点钟回到家的？",
+    "question_id": "4363076",
+    "prompt_or_reference": "志愿者什么时候将开始工作？",
     "standard_answer": [
-      "What time did you get back home?",
-      "What time did you go back home?",
-      "What time did you return home?",
-      "When did you get back home?",
-      "When did you go back home?",
-      "When did you return home?"
+      "When will volunteers start working?",
+      "When will volunteers begin working?",
+      "When will volunteers start to work?",
+      "When will volunteers begin to work?",
+      "When are volunteers going to start working?",
+      "When are volunteers going to begin working?",
+      "When are volunteers going to start to work?",
+      "When are volunteers going to begin to work?"
     ],
     "student_answer": [],
     "score": {
       "score": "3",
-      "user_score": "0"
+      "user_score": "2.73"
+    },
+    "audio": null,
+    "word_scores": []
+  },
+  {
+    "index": 14,
+    "model_title": "询问信息",
+    "model_id": "1321276",
+    "model_type": "9",
+    "question_id": "4363077",
+    "prompt_or_reference": "志愿者一周需要工作几天？",
+    "standard_answer": [
+      "How many days do volunteers need to work a week?",
+      "How many days do volunteers need to work every week?",
+      "How many days do volunteers need to work each week?"
+    ],
+    "student_answer": [],
+    "score": {
+      "score": "3",
+      "user_score": "2.73"
     },
     "audio": null,
     "word_scores": []

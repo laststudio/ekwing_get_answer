@@ -20,7 +20,7 @@ from typing import Any
 from urllib.parse import parse_qsl, parse_qs, urlsplit
 
 import requests
-from demo import fill_interactive_args, login_by_real_name, save_login_cache
+from demo import fill_interactive_args, login, save_login_cache_interactive
 from exam_answer_json_parse_demo import build_answers_only as build_json_answers_only
 from exam_answer_json_parse_demo import parse_exam_answers as parse_json_exam_answers
 from homework_demo import (
@@ -41,6 +41,12 @@ EXAM_SCORE_PATH = "/student/exam/getscoreinfo"
 BASIC_EXAM_SCORE_PATH = "/student/exam/getbasicscoreinfo"
 GET_MODEL_SCORE_PATH = "/student/exam/getmodelscoreinfo"
 DEFAULT_SAVE_DIR = "out_exam"
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except AttributeError:
+    pass
 
 ID_KEYS = (
     "id",
@@ -1007,21 +1013,34 @@ def output_result(result: dict[str, Any], args: argparse.Namespace) -> None:
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return
 
-    structured_summary = summarize_structured_report(result["structured_report"], args.max_summary_questions)
-    summary = {
-        "exam": summarize_exam(result["exam"]),
-        "exam_item_ok": result["exam_item"].get("ok"),
-        "exam_item_error": result["exam_item"].get("error"),
-        "score_info_ok": result["score_info"].get("ok"),
-        "score_info_error": result["score_info"].get("error"),
-        "score_info_kind": result["score_info"].get("response_kind"),
-        "score_info_title": ((result["score_info"].get("data") or {}).get("html_title") if isinstance(result["score_info"].get("data"), dict) else None),
-        "structured_report": structured_summary,
-        "answers_count": len(result["answers"]),
-        "answers_preview": result["answers"][: args.max_summary_questions],
-        "answers_by_question_preview": result["answers_by_question"][: args.max_summary_questions],
-    }
-    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    print_answers(result)
+
+
+def print_answers(result: dict[str, Any]) -> None:
+    exam = summarize_exam(result["exam"])
+    print(f"考试：{exam.get('title') or exam.get('self_id')}")
+    print(f"答案数量：{len(result['answers_by_question'])}")
+    print()
+
+    if not result["answers_by_question"]:
+        print("未解析到答案。")
+        return
+
+    for item in result["answers_by_question"]:
+        print(f"{item.get('index')}. {item.get('model_name') or item.get('model_type')}")
+        question = item.get("question")
+        if question:
+            print(f"题目：{question}")
+        answers = item.get("answers") if isinstance(item.get("answers"), list) else []
+        if not answers:
+            print("答案：")
+        elif len(answers) == 1:
+            print(f"答案：{answers[0]}")
+        else:
+            print("答案：")
+            for answer_index, answer in enumerate(answers, start=1):
+                print(f"  {answer_index}. {answer}")
+        print()
 
 
 def summarize_structured_report(report: dict[str, Any], max_questions: int) -> dict[str, Any]:
@@ -1035,10 +1054,22 @@ def summarize_structured_report(report: dict[str, Any], max_questions: int) -> d
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="翼课学生 5.2.7 学习中心考试答案导出 release")
+    parser.add_argument(
+        "--login-method",
+        choices=("real-name", "account"),
+        default=None,
+        help="登录方式：real-name 为实名登录，account 为账号密码登录；不传则交互选择",
+    )
+    parser.add_argument("--username", help="账号密码登录的账号，对应 username；不传则交互式输入")
     parser.add_argument("--name", help="学生姓名，对应 nicename；不传则交互式输入")
     parser.add_argument("--school-name", help="学校名称，对应 schoolName；不传则交互式输入")
     parser.add_argument("--school-id", help="学校 ID，对应 schoolId；不传则交互式输入")
+    parser.add_argument("--school-keyword", help="学校搜索关键字；未提供学校名称时用于搜索选择")
+    parser.add_argument("--school-search-page", type=int, default=1, help="学校搜索页码，默认 1")
+    parser.add_argument("--school-choose-index", type=int, help="学校搜索结果选择序号；不传则交互选择")
     parser.add_argument("--password", help="明文密码；不传则交互式输入")
+    parser.add_argument("--save-login", dest="save_login", action="store_true", default=None, help="登录成功后保存登录信息（不保存密码）")
+    parser.add_argument("--no-save-login", dest="save_login", action="store_false", help="登录成功后不保存登录信息")
     parser.add_argument("--choose-index", type=int, help="同名账号分支选择序号；不传则交互选择")
 
     parser.add_argument(
@@ -1079,13 +1110,14 @@ def parse_args() -> argparse.Namespace:
 
 
 def main() -> int:
-    args = fill_interactive_exam_args(fill_interactive_args(parse_args()))
+    args = fill_interactive_args(parse_args())
     try:
-        login_result = login_by_real_name(args)
-        save_login_cache(args)
+        login_result = login(args)
+        save_login_cache_interactive(args)
         uid = str(login_result["uid"])
         token = str(login_result["token"])
 
+        args = fill_interactive_exam_args(args)
         exams = get_exam_list(uid, token, args)
         exam = select_exam(args, exams)
         self_id = exam_self_id(exam)

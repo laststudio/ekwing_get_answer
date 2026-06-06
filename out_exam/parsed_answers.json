@@ -1,6 +1,6 @@
 {
-  "count": 25,
-  "truncated": false,
+  "count": 80,
+  "truncated": true,
   "items": [
     {
       "source": "score_info",
@@ -12,7 +12,7 @@
       "student_answer": {},
       "score": {
         "score": 6,
-        "user_score": 0
+        "user_score": 5.32
       },
       "analysis": {},
       "keys": [
@@ -37,7 +37,7 @@
       "student_answer": {},
       "score": {
         "score": 15,
-        "user_score": 0
+        "user_score": 13.23
       },
       "analysis": {},
       "keys": [
@@ -62,7 +62,7 @@
       "student_answer": {},
       "score": {
         "score": 9,
-        "user_score": 0
+        "user_score": 8.41
       },
       "analysis": {},
       "keys": [
@@ -80,14 +80,14 @@
     {
       "source": "score_info",
       "path": "score_info.useful_candidates[0].self_info",
-      "id": 8820442,
+      "id": 8869341,
       "type": null,
-      "question": "905-906非VIP第11周九上M 2听说题2",
+      "question": "六校联考-吉利中学九年级听说试题",
       "standard_answer": {},
       "student_answer": {},
       "score": {
         "total_score": 30,
-        "user_score": 0
+        "user_score": "26.96"
       },
       "analysis": {},
       "keys": [
@@ -116,674 +116,1895 @@
     },
     {
       "source": "score_info",
-      "path": "score_info.useful_candidates[0].exam_third[0].model_list[0]",
-      "id": "1277626",
-      "type": "1",
-      "question": null,
+      "path": "score_info.useful_candidates[0].ans_info",
+      "id": "406629819",
+      "type": null,
+      "question": "{\"1321272\": {\"model_id\": 1321272, \"model_type\": 1, \"ques_list\": [{\"_from\": \"singsound\", \"_score_engine\": \"xs\", \"_score_core\": \"para\", \"_os\": \"pcclient\", \"model_id\": \"1321272\", \"ques_id\": 0, \"audioUrl\": \"http://files.cloud.ssapi.cn:8080/a105...(truncated)",
       "standard_answer": {},
       "student_answer": {},
       "score": {
-        "score": "6"
-      },
-      "analysis": {},
-      "keys": [
-        "title",
-        "model_type",
-        "name_id",
-        "model_id",
-        "score",
-        "time_info",
-        "_paper_id",
-        "vip_type",
-        "is_subject"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].exam_third[1].model_list[0]",
-      "id": "1277627",
-      "type": "7",
-      "question": "第一节 听选信息（共6小题；每小题1.5分，满分9分）",
-      "standard_answer": {},
-      "student_answer": {},
-      "score": {
-        "score": "9"
-      },
-      "analysis": {},
-      "keys": [
-        "title",
-        "model_type",
-        "name_id",
-        "model_id",
-        "score",
-        "time_info",
-        "_paper_id",
-        "vip_type",
-        "is_subject"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].exam_third[1].model_list[1]",
-      "id": "1277628",
-      "type": "8",
-      "question": "第二节 问题回答（共4小题；每小题1.5分，满分6分）",
-      "standard_answer": {},
-      "student_answer": {},
-      "score": {
-        "score": "6"
-      },
-      "analysis": {},
-      "keys": [
-        "title",
-        "model_type",
-        "name_id",
-        "model_id",
-        "score",
-        "time_info",
-        "_paper_id",
-        "vip_type",
-        "is_subject"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].exam_third[2].model_list[0]",
-      "id": "1277629",
-      "type": "6",
-      "question": "第一节 信息转述（共1题，满分6分）",
-      "standard_answer": {},
-      "student_answer": {},
-      "score": {
-        "score": "6"
-      },
-      "analysis": {},
-      "keys": [
-        "title",
-        "model_type",
-        "name_id",
-        "model_id",
-        "score",
-        "time_info",
-        "_paper_id",
-        "vip_type",
-        "is_subject"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].exam_third[2].model_list[1]",
-      "id": "1277630",
-      "type": "9",
-      "question": "第二节 询问信息（共2小题；每小题1.5分，满分3分）",
-      "standard_answer": {},
-      "student_answer": {},
-      "score": {
-        "score": "3"
-      },
-      "analysis": {},
-      "keys": [
-        "title",
-        "model_type",
-        "name_id",
-        "model_id",
-        "score",
-        "time_info",
-        "_paper_id",
-        "vip_type",
-        "is_subject"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277627",
-      "id": "1277627",
-      "type": "7",
-      "question": "[{\"text\": \"W: Frank, tomorrow is Mother's Day.\\nM: What should we buy for our mom as a gift?\\nW: What about flowers?\\nM: I don't think they're a good gift.\\nW: How about a watch?\\nM: Pretty good! Let's go shopping this afternoon. And I thin...(truncated)",
-      "standard_answer": {},
-      "student_answer": {},
-      "score": {
-        "score": "9",
-        "user_score": 0
+        "score": "26.96"
       },
       "analysis": {},
       "keys": [
         "id",
-        "model_type",
-        "first_type",
-        "level",
-        "score",
-        "prepare_time",
-        "answer_time",
-        "play_num",
-        "art_play_num",
-        "display_question",
-        "name",
-        "is_answer",
-        "chap_info",
-        "title_ques_map",
-        "title",
-        "ques_list",
-        "ques_index",
-        "ques_begin",
-        "ques_end",
-        "had_ans",
-        "is_subject",
-        "user_score",
-        "user_score_level",
-        "_paper_id",
-        "model_type_name",
-        "name_id",
-        "answer_pic",
-        "is_correct",
-        "is_able"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[0]",
-      "id": "4202933",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"A watch.\", \"A watch.\"], [\"They'll buy a watch.\", \"They'll buy a watch.\"], [\"They will buy a watch.\", \"They will buy a watch.\"], [\"They're going to buy a watch.\", \"They're going to buy a watch.\"], [\"They are going to buy a watch.\", \"They ...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[1]",
-      "id": "4202934",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": [
-          [
-            "A Chinese restaurant.",
-            "A Chinese restaurant."
-          ],
-          [
-            "They've chosen a Chinese restaurant.",
-            "They've chosen a Chinese restaurant."
-          ],
-          [
-            "They have chosen a Chinese restaurant.",
-            "They have chosen a Chinese restaurant."
-          ]
-        ]
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[2]",
-      "id": "4202935",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"Her father.\", \"Her father.\"], [\"Her dad.\", \"Her dad.\"], [\"Her daddy.\", \"Her daddy.\"], [\"She wants to buy it for her father.\", \"She wants to buy it for her father.\"], [\"She wants to buy her dad a gift.\", \"She wants to buy her dad a gift.\"...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[3]",
-      "id": "4202936",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"Twenty-eight dollars.\", \"Twenty-eight dollars.\"], [\"It's twenty-eight dollars.\", \"It's twenty-eight dollars.\"], [\"It is twenty-eight dollars.\", \"It is twenty-eight dollars.\"], [\"The wallet is twenty-eight dollars.\", \"The wallet is twenty...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[4]",
-      "id": "4202937",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"Next Tuesday afternoon.\", \"Next Tuesday afternoon.\"], [\"He's going to have it next Tuesday afternoon.\", \"He's going to have it next Tuesday afternoon.\"], [\"He is going to have a party next Tuesday afternoon.\", \"He is going to have a part...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277627.ques_list[5]",
-      "id": "4202938",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"America.\", \"America.\"], [\"The US.\", \"The US.\"], [\"The USA.\", \"The USA.\"], [\"The United States.\", \"The United States.\"], [\"The United States of America.\", \"The United States of America.\"], [\"He may be from America.\", \"He may be from Ameri...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[0]",
-      "id": "4202939",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"The National Day.\", \"The National Day.\"], [\"It was the National Day.\", \"It was the National Day.\"], [\"Last Sunday was the National Day.\", \"Last Sunday was the National Day.\"], [\"It was the National Day last Sunday.\", \"It was the National...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "answer_tip",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[1]",
-      "id": "4202940",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": [
-          [
-            "Three.",
-            "Three."
-          ],
-          [
-            "Three people.",
-            "Three people."
-          ],
-          [
-            "Three people went there.",
-            "Three people went there."
-          ],
-          [
-            "Three people went to Tian'anmen Square.",
-            "Three people went to Tian'anmen Square."
-          ]
-        ]
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "answer_tip",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[2]",
-      "id": "4202941",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"She went shopping.\", \"She went shopping.\"], [\"She shopped.\", \"She shopped.\"], [\"She did some shopping.\", \"She did some shopping.\"], [\"Her aunt went shopping.\", \"Her aunt went shopping.\"], [\"Her aunt shopped.\", \"Her aunt shopped.\"], [\"Her...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "answer_tip",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277628.ques_list[3]",
-      "id": "4202942",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"To a bookstore.\", \"To a bookstore.\"], [\"To a bookshop.\", \"To a bookshop.\"], [\"He went to a bookstore.\", \"He went to a bookstore.\"], [\"He went to a bookshop.\", \"He went to a bookshop.\"], [\"Her cousin went to a bookstore.\", \"Her cousin wen...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "answer_tip",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277629",
-      "id": "1277629",
-      "type": "6",
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"Tim's parents took Tim to see his grandmother on the Double Ninth Festival. They went by car. They arrived at her home at about half past eight in the morning. They climbed a mountain together.\", \"Tim's parents took Tim to see his grandm...(truncated)"
-      },
-      "student_answer": {},
-      "score": {
-        "score": "6",
-        "user_score": 0
-      },
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_type",
-        "first_type",
-        "level",
-        "score",
-        "prepare_time",
-        "answer_time",
-        "scene_tip",
-        "art_play_num",
-        "name",
-        "chap_info",
-        "desc",
-        "desc_pic",
-        "title_text",
-        "title_audio",
-        "answer_tip",
-        "answer",
-        "ques_index",
-        "ques_begin",
-        "ques_end",
-        "had_ans",
-        "user_ans",
-        "is_subject",
-        "user_score",
-        "user_score_level",
-        "_paper_id",
-        "model_type_name",
-        "name_id",
-        "answer_pic",
-        "is_correct",
-        "is_able"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277630.ques_list[0]",
-      "id": "4202943",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"What did you eat for lunch on the Double Ninth Festival?\", \"What did you eat for lunch on the Double Ninth Festival?\"], [\"What did you have for lunch on the Double Ninth Festival?\", \"What did you have for lunch on the Double Ninth Festiv...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].model_ans_list.1277630.ques_list[1]",
-      "id": "4202944",
-      "type": null,
-      "question": null,
-      "standard_answer": {
-        "answer": "[[\"What time did you get back home?\", \"What time did you get back home?\"], [\"What time did you go back home?\", \"What time did you go back home?\"], [\"What time did you return home?\", \"What time did you return home?\"], [\"When did you get back...(truncated)"
-      },
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "id",
-        "model_id",
-        "title_text",
-        "title_pic",
-        "title_audio",
-        "ques_type",
-        "is_subjective",
-        "ext",
-        "answer",
-        "analyze",
-        "is_del",
-        "is_subject",
-        "bt_id",
-        "keywords",
-        "user_ans"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].exam_content[0].model_list[0]",
-      "id": null,
-      "type": "1",
-      "question": null,
-      "standard_answer": {},
-      "student_answer": {},
-      "score": {},
-      "analysis": {},
-      "keys": [
-        "title",
-        "desc",
-        "type",
-        "model_list"
-      ]
-    },
-    {
-      "source": "score_info",
-      "path": "score_info.useful_candidates[0].self",
-      "id": "8820442",
-      "type": "0",
-      "question": "905-906非VIP第11周九上M 2听说题2",
-      "standard_answer": {},
-      "student_answer": {},
-      "score": {
-        "score": "30.00"
-      },
-      "analysis": {},
-      "keys": [
-        "id",
-        "uid",
-        "paper_id",
-        "type",
-        "title",
+        "self_id",
+        "student_uid",
         "create_time",
-        "start_time",
-        "end_time",
+        "score_info",
         "status",
-        "status_time",
-        "cancel_reason",
-        "target_json",
-        "score",
         "content_id",
-        "mode_type",
-        "show_answer",
-        "takeup_time",
-        "takeup_type",
-        "finish_time",
-        "work_id",
-        "has_subject",
-        "offline_status",
-        "is_in_term",
-        "review_count",
-        "paper_title",
-        "is_vip_exam",
-        "client_type",
-        "ext",
-        "subject",
-        "content",
-        "practice_scene",
-        "is_all_subject"
+        "score",
+        "use_time",
+        "reback_type",
+        "content"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[0]",
+      "id": null,
+      "type": null,
+      "question": "Foshan is a city in Guangdong Province.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 63.6,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 76.5
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[1]",
+      "id": null,
+      "type": null,
+      "question": "It is a wonderful place to live and visit.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 66.6,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 86.6
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[2]",
+      "id": null,
+      "type": null,
+      "question": "Foshan is famous for its long history and rich culture.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 53.3,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 90.9
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[3]",
+      "id": null,
+      "type": null,
+      "question": "It is the birthplace of many traditional Chinese arts and Chinese kung fu.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 83.1,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 89.2
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[4]",
+      "id": null,
+      "type": null,
+      "question": "People here also love Guangdong opera.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 96.9,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 90.8
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[5]",
+      "id": null,
+      "type": null,
+      "question": "The opera is full of interesting stories.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 74.2,
+        "fluency": {
+          "speed": 1,
+          "pause": 1,
+          "overall": 66.9
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[6]",
+      "id": null,
+      "type": null,
+      "question": "What's more,",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 67.4,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 95.3
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[7]",
+      "id": null,
+      "type": null,
+      "question": "the food in Foshan is amazing.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 56.6,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 88.3
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[8]",
+      "id": null,
+      "type": null,
+      "question": "You can taste delicious morning tea and traditional dishes here.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 66.4,
+        "fluency": {
+          "speed": 1,
+          "pause": 1,
+          "overall": 86.9
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[9]",
+      "id": null,
+      "type": null,
+      "question": "There are many lovely parks in Foshan.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 74.5,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 90.5
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[10]",
+      "id": null,
+      "type": null,
+      "question": "People like to do exercise and relax there.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 78.8,
+        "fluency": {
+          "speed": 1,
+          "pause": 1,
+          "overall": 89.4
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[11]",
+      "id": null,
+      "type": null,
+      "question": "Foshan is like a big and warm family with friendly people.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 51.1,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 85.1
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].result.details[12]",
+      "id": null,
+      "type": null,
+      "question": "It is truly a special city!",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 84.8,
+        "fluency": {
+          "speed": 1,
+          "pause": 0,
+          "overall": 97.6
+        }
+      },
+      "analysis": {},
+      "keys": [
+        "text",
+        "score",
+        "fluency",
+        "snt_details"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[0].word[0]",
+      "id": null,
+      "type": null,
+      "question": "Foshan",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 15
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[0].word[1]",
+      "id": null,
+      "type": null,
+      "question": "is",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 60
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[0].word[2]",
+      "id": null,
+      "type": null,
+      "question": "a",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 97
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[0].word[3]",
+      "id": null,
+      "type": null,
+      "question": "city",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 73
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[0].word[4]",
+      "id": null,
+      "type": null,
+      "question": "in",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 98
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[0].word[5]",
+      "id": null,
+      "type": null,
+      "question": "Guangdong",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 98
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[0].word[6]",
+      "id": null,
+      "type": null,
+      "question": "Province.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 45
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[1].word[0]",
+      "id": null,
+      "type": null,
+      "question": "It",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 94
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[1].word[3]",
+      "id": null,
+      "type": null,
+      "question": "wonderful",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 81
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[1].word[4]",
+      "id": null,
+      "type": null,
+      "question": "place",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 0
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[1].word[5]",
+      "id": null,
+      "type": null,
+      "question": "to",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 66
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[1].word[6]",
+      "id": null,
+      "type": null,
+      "question": "live",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 96
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[1].word[7]",
+      "id": null,
+      "type": null,
+      "question": "and",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 99
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[1].word[8]",
+      "id": null,
+      "type": null,
+      "question": "visit.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 35
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[2].word[2]",
+      "id": null,
+      "type": null,
+      "question": "famous",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 4
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[2].word[3]",
+      "id": null,
+      "type": null,
+      "question": "for",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 22
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[2].word[4]",
+      "id": null,
+      "type": null,
+      "question": "its",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 68
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[2].word[5]",
+      "id": null,
+      "type": null,
+      "question": "long",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 99
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[2].word[6]",
+      "id": null,
+      "type": null,
+      "question": "history",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 54
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[2].word[8]",
+      "id": null,
+      "type": null,
+      "question": "rich",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 92
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[2].word[9]",
+      "id": null,
+      "type": null,
+      "question": "culture.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 64
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[2]",
+      "id": null,
+      "type": null,
+      "question": "the",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 96
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[3]",
+      "id": null,
+      "type": null,
+      "question": "birthplace",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 76
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[4]",
+      "id": null,
+      "type": null,
+      "question": "of",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 98
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[5]",
+      "id": null,
+      "type": null,
+      "question": "many",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 83
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[6]",
+      "id": null,
+      "type": null,
+      "question": "traditional",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 79
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[7]",
+      "id": null,
+      "type": null,
+      "question": "Chinese",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 71
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[8]",
+      "id": null,
+      "type": null,
+      "question": "arts",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 91
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[11]",
+      "id": null,
+      "type": null,
+      "question": "kung",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 72
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[3].word[12]",
+      "id": null,
+      "type": null,
+      "question": "fu.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 95
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[4].word[0]",
+      "id": null,
+      "type": null,
+      "question": "People",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 93
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[4].word[1]",
+      "id": null,
+      "type": null,
+      "question": "here",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 99
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[4].word[2]",
+      "id": null,
+      "type": null,
+      "question": "also",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 100
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[4].word[3]",
+      "id": null,
+      "type": null,
+      "question": "love",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 96
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[4].word[5]",
+      "id": null,
+      "type": null,
+      "question": "opera.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 97
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[5].word[0]",
+      "id": null,
+      "type": null,
+      "question": "The",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 100
+      },
+      "analysis": {},
+      "keys": [
+        "dp_type",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "end",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[5].word[1]",
+      "id": null,
+      "type": null,
+      "question": "opera",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 59
+      },
+      "analysis": {},
+      "keys": [
+        "dp_type",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "end",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[5].word[3]",
+      "id": null,
+      "type": null,
+      "question": "full",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 22
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[5].word[5]",
+      "id": null,
+      "type": null,
+      "question": "interesting",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 86
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[5].word[6]",
+      "id": null,
+      "type": null,
+      "question": "stories.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 82
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "is_pause",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "start",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[6].word[0]",
+      "id": null,
+      "type": null,
+      "question": "What's",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 51
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[6].word[1]",
+      "id": null,
+      "type": null,
+      "question": "more,",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 92
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[7].word[1]",
+      "id": null,
+      "type": null,
+      "question": "food",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 34
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[7].word[5]",
+      "id": null,
+      "type": null,
+      "question": "amazing.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 61
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[0]",
+      "id": null,
+      "type": null,
+      "question": "You",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 39
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[1]",
+      "id": null,
+      "type": null,
+      "question": "can",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 94
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[2]",
+      "id": null,
+      "type": null,
+      "question": "taste",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 27
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "is_pause",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "start",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[3]",
+      "id": null,
+      "type": null,
+      "question": "delicious",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 53
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[4]",
+      "id": null,
+      "type": null,
+      "question": "morning",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 99
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[5]",
+      "id": null,
+      "type": null,
+      "question": "tea",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 47
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[8]",
+      "id": null,
+      "type": null,
+      "question": "dishes",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 46
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[8].word[9]",
+      "id": null,
+      "type": null,
+      "question": "here.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 97
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[9].word[0]",
+      "id": null,
+      "type": null,
+      "question": "There",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 99
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[9].word[1]",
+      "id": null,
+      "type": null,
+      "question": "are",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 97
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[9].word[3]",
+      "id": null,
+      "type": null,
+      "question": "lovely",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 100
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[9].word[4]",
+      "id": null,
+      "type": null,
+      "question": "parks",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 58
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[9].word[6]",
+      "id": null,
+      "type": null,
+      "question": "Foshan.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 40
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[10].word[1]",
+      "id": null,
+      "type": null,
+      "question": "like",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 98
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[10].word[3]",
+      "id": null,
+      "type": null,
+      "question": "do",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 50
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[10].word[4]",
+      "id": null,
+      "type": null,
+      "question": "exercise",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 84
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[10].word[6]",
+      "id": null,
+      "type": null,
+      "question": "relax",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 99
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "is_pause",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "start",
+        "text",
+        "timeFragment",
+        "fragment"
+      ]
+    },
+    {
+      "source": "score_info",
+      "path": "score_info.useful_candidates[0].ans_info.content.1321272.ques_list[0].sentences[10].word[7]",
+      "id": null,
+      "type": null,
+      "question": "there.",
+      "standard_answer": {},
+      "student_answer": {},
+      "score": {
+        "score": 99
+      },
+      "analysis": {},
+      "keys": [
+        "end",
+        "start",
+        "accent",
+        "char",
+        "phone",
+        "score",
+        "dur",
+        "text",
+        "timeFragment",
+        "fragment"
       ]
     }
   ]

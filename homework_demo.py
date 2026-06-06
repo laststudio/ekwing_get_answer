@@ -22,7 +22,7 @@ except ImportError:  # pragma: no cover - only used when dependency is missing
     print("缺少 requests 依赖，请先执行：python -m pip install requests", file=sys.stderr)
     raise
 
-from demo import fill_interactive_args, login_by_real_name, save_login_cache
+from demo import fill_interactive_args, login, save_login_cache_interactive
 
 
 BASE_URL = "https://mapi.ekwing.com"
@@ -401,10 +401,22 @@ def fill_interactive_homework_args(args: argparse.Namespace) -> argparse.Namespa
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="翼课学生 5.2.7 登录后获取作业列表 demo")
 
+    parser.add_argument(
+        "--login-method",
+        choices=("real-name", "account"),
+        default=None,
+        help="登录方式：real-name 为实名登录，account 为账号密码登录；不传则交互选择",
+    )
+    parser.add_argument("--username", help="账号密码登录的账号，对应 username；不传则交互式输入")
     parser.add_argument("--name", help="学生姓名，对应 nicename；不传则交互式输入")
     parser.add_argument("--school-name", help="学校名称，对应 schoolName；不传则交互式输入")
     parser.add_argument("--school-id", help="学校 ID，对应 schoolId；不传则交互式输入")
+    parser.add_argument("--school-keyword", help="学校搜索关键字；未提供学校名称时用于搜索选择")
+    parser.add_argument("--school-search-page", type=int, default=1, help="学校搜索页码，默认 1")
+    parser.add_argument("--school-choose-index", type=int, help="学校搜索结果选择序号；不传则交互选择")
     parser.add_argument("--password", help="明文密码；不传则交互式输入")
+    parser.add_argument("--save-login", dest="save_login", action="store_true", default=None, help="登录成功后保存登录信息（不保存密码）")
+    parser.add_argument("--no-save-login", dest="save_login", action="store_false", help="登录成功后不保存登录信息")
     parser.add_argument("--choose-index", type=int, help="同名账号分支选择序号；不传则交互选择")
 
     parser.add_argument(
@@ -457,8 +469,8 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = fill_interactive_homework_args(fill_interactive_args(parse_args()))
     try:
-        login_result = login_by_real_name(args)
-        save_login_cache(args)
+        login_result = login(args)
+        save_login_cache_interactive(args)
         uid = str(login_result["uid"])
         token = str(login_result["token"])
 
