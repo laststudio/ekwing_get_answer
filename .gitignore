@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 decoded_*/
 .ekwing_login_cache.json
+out_exam/
