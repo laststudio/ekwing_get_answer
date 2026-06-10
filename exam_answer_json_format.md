@@ -197,10 +197,10 @@ answer_tip -> title_text -> desc -> name
 发布入口是：
 
 ```bash
-python release.py
+python study_center_exam_downloader.py
 ```
 
-`release.py` 在拉完成绩页后，会继续请求 `getmodelscoreinfo`，调用 `exam_answer_json_parse_demo.py` 的解析函数，并保存：
+`study_center_exam_downloader.py` 在拉完成绩页后，会继续请求 `getmodelscoreinfo`，调用 `exam_answer_json_parse_demo.py` 的解析函数，并保存：
 
 ```text
 out_exam/model_score_raw.json

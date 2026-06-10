@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Release entry for Ekwing Student 5.2.7 study-center exam answer export.
+"""Study-center exam task downloader and answer parser for Ekwing Student 5.2.7.
 
 Usage:
-    python release.py
-    python release.py --list-type current --exam-index 0 --save-dir out_exam
-    python release.py --list-type study-center-history --exam-index 0 --save-dir out_exam
-    python release.py --self-id 8820442 --raw-response
+    python study_center_exam_downloader.py
+    python study_center_exam_downloader.py --list-type current --exam-index 0 --save-dir out_exam
+    python study_center_exam_downloader.py --list-type study-center-history --exam-index 0 --save-dir out_exam
+    python study_center_exam_downloader.py --self-id 8820442 --raw-response
 """
 
 from __future__ import annotations
@@ -1053,7 +1053,7 @@ def summarize_structured_report(report: dict[str, Any], max_questions: int) -> d
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="翼课学生 5.2.7 学习中心考试答案导出 release")
+    parser = argparse.ArgumentParser(description="翼课学生 5.2.7 学习中心考试任务下载与答案解析")
     parser.add_argument(
         "--login-method",
         choices=("real-name", "account"),

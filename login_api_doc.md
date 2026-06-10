@@ -562,9 +562,9 @@ msg aliases: errlog, error_msg
 
 两者最终成功返回都落到同一个实体 `LoginEntity`，都从 `data.token` 取登录 token。
 
-## 8. 当前 release 登录交互
+## 8. 当前下载入口登录交互
 
-`release.py` 复用 `demo.py` 的通用登录函数，当前支持两种登录方式：
+`study_center_exam_downloader.py` 复用 `demo.py` 的通用登录函数，当前支持两种登录方式：
 
 ```text
 real-name = 实名登录，姓名 + 学校 + 密码
@@ -586,16 +586,16 @@ account   = 账号密码登录，账号 + 密码
 6. 如果没有密码，则提示输入密码。
 7. 询问是否保存登录信息；只记录用户选择，登录成功后才真正写入 .ekwing_login_cache.json。
 8. 调用 /student/User/loginschool。
-9. release.py 登录成功后，才继续询问考试来源、Basic 接口、作业选择等答案相关问题。
+9. `study_center_exam_downloader.py` 登录成功后，才继续询问考试来源、Basic 接口、作业选择等答案相关问题。
 ```
 
 命令行也可以直接指定学校搜索：
 
 ```bash
-python release.py --login-method real-name --name 张三 --school-keyword 吉利中学
-python release.py --name 张三 --school-keyword 吉利中学
-python release.py --name 张三 --school-id 23163 --school-keyword 吉利中学
-python release.py --name 张三 --school-keyword 吉利中学 --school-choose-index 0
+python study_center_exam_downloader.py --login-method real-name --name 张三 --school-keyword 吉利中学
+python study_center_exam_downloader.py --name 张三 --school-keyword 吉利中学
+python study_center_exam_downloader.py --name 张三 --school-id 23163 --school-keyword 吉利中学
+python study_center_exam_downloader.py --name 张三 --school-keyword 吉利中学 --school-choose-index 0
 ```
 
 ### 账号密码登录流程
@@ -608,14 +608,14 @@ python release.py --name 张三 --school-keyword 吉利中学 --school-choose-in
 3. 如果缺少密码，则提示输入密码。
 4. 询问是否保存登录信息；只记录用户选择，登录成功后才真正写入 .ekwing_login_cache.json。
 5. 调用 /student/User/login。
-6. release.py 登录成功后，才继续询问考试来源、Basic 接口、作业选择等答案相关问题。
+6. `study_center_exam_downloader.py` 登录成功后，才继续询问考试来源、Basic 接口、作业选择等答案相关问题。
 ```
 
 命令行示例：
 
 ```bash
-python release.py --login-method account --username your_account
-python release.py --login-method account --username your_account --password 123456
+python study_center_exam_downloader.py --login-method account --username your_account
+python study_center_exam_downloader.py --login-method account --username your_account --password 123456
 ```
 
 缓存文件按当前登录方式保存对应身份信息：
